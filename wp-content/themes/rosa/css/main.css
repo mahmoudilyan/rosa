@@ -272,7 +272,50 @@ input[type], textarea {
   color: #fff;
 }
 
-/* line 269, ../scss/main.scss */
+/* line 265, ../scss/main.scss */
+.lists {
+  padding: 0;
+}
+/* line 268, ../scss/main.scss */
+.lists li {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* line 275, ../scss/main.scss */
+.lists li h6 {
+  text-transform: uppercase;
+  color: #ff3300;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+/* line 283, ../scss/main.scss */
+.lists li a {
+  color: #ff3300;
+}
+/* line 287, ../scss/main.scss */
+.lists li .img-post {
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 294, ../scss/main.scss */
+.lists li .img-post img {
+  width: 100%;
+  height: 100%;
+}
+/* line 301, ../scss/main.scss */
+.lists hr {
+  clear: both;
+  display: none;
+}
+
+/* line 309, ../scss/main.scss */
 .article img {
   width: 100%;
   height: auto;

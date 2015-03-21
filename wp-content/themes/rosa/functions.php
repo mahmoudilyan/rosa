@@ -98,6 +98,17 @@
         ));
     }    
     
+    if (function_exists('register_sidebar')) {
+        register_sidebar(array(
+            'name' => 'Single Post',
+            'id'   => 'single-post',
+            'description'   => 'These are widgets for Single Post,Page,..',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>'
+        ));
+    }       
 //    if (function_exists('register_sidebar')) {
 //    	register_sidebar(array(
 //    		'name' => 'Contact Page Sidebar',

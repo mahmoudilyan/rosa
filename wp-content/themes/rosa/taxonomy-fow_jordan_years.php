@@ -6,7 +6,7 @@ get_header() ;?>
         
         <div class="col-md-9">
             
-            <h3><?php _e('Fields of Work Palestine', 'rosa') ;?></h3>
+            <h3><?php _e('Fields of Work Jordan', 'rosa') ;?></h3>
 
             <?php if(have_posts()) : ?>
             
@@ -46,6 +46,6 @@ get_header() ;?>
 
     </div>
 
-
-</div>    
+</div>
+    
 <?php get_footer() ;?>
