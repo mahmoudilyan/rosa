@@ -39,7 +39,7 @@
                         }
                     ?>
             
-                    <h3><a href="<?php echo $link ;?>"><?php the_title() ;?></a></h3>
+                    <h4><a href="<?php echo $link ;?>"><?php the_title() ;?></a></h3>
                     <span class="post-location"><?php echo $date ;?></span>
                     <a href="<?php the_permalink() ;?>"><?php _e('More','fespal') ;?></a>
                 </div> 

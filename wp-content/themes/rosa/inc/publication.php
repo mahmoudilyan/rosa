@@ -26,6 +26,10 @@ class Publiction {
         //Adding years taxonomy for publication custom post type
         add_action('init',array($this,'add_organization_publication_taxonomy')); 
 
+        //Adding years taxonomy for publication custom post type
+        add_action('init',array($this,'add_years_publication_taxonomy')); 
+
+
         //Saving Meta Boxes
         add_action( 'save_post', array($this,'save_publication_meta_box') );        
 
@@ -103,6 +107,36 @@ class Publiction {
 
         register_taxonomy('organization', array('publication'), $args);
     }
+
+    /**
+     * 
+     */
+    public function add_years_publication_taxonomy(){
+          $labels = array(
+            'name' => _x('Publications Years', 'taxonomy general name'),
+            'singular_name' => _x('Publications Years', 'taxonomy singular name'),
+            'search_items' => __('Search Publications Yearss','fespal'),
+            'all_items' => __('All Publications Yearss','fespal'),
+            'parent_item' => __('Parent','fespal'),
+            'parent_item_colon' => __('Parent ','fespal'),
+            'edit_item' => __('Edit Publications Years','fespal'),
+            'update_item' => __('Update Publications Years','fespal'),
+            'add_new_item' => __('Add New Publications Years','fespal'),
+            'new_item_name' => __('New Publications Years Name','fespal'),
+            'menu_name' => __('Years','fespal')
+        );
+
+        $args = array(
+            'hierarchical' => true,
+            'labels' => $labels,
+            'show_ui' => true,
+            'show_admin_column' => true,
+            'query_var' => true,
+            'rewrite' => array('slug' => 'publications_years')
+        );
+
+        register_taxonomy('publications_years', array('publication'), $args);
+    }    
     
     /**
      * 
