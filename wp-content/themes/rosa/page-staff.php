@@ -35,18 +35,27 @@ get_header() ;?>
                     $position = get_post_meta(get_the_ID(),'employee_position',true) ;
                     $location = get_post_meta(get_the_ID(),'employee_location',true) ;
                 ?> 
-                <div class="col-md-4">
-                    <?php if(has_post_thumbnail()){
-                        the_post_thumbnail('staff');
-                    }
-                    ?>
-            
-                    <h4><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h4>
-                    <span class="staff-position"><?php echo $position ;?></span>
-                    <span class="staff-location"><?php echo $location ;?></span>
+                <div class="col-md-12">
+                    <div class="single-staff">
+                        <div class="img-staff">
+                            <?php if(has_post_thumbnail()){
+                                the_post_thumbnail('staff');
+                            }
+                            ?>
+                        </div>
+                
+                        <h4 class="employee-title"><?php the_title() ;?></h4>
+                        <span class="staff-position"><?php echo $position ;?></span>
+                        <span class="staff-location"><?php echo $location ;?></span>
+
+                        <div class="bio">
+                            <?php the_content() ;?>
+                        </div>
+
+                    </div>
                 </div>
 
-                <?php if( $i % 3  === 0) { echo '<div class="clearfix"></div>';} ?>
+                <?php //if( $i % 3  === 0) { echo '<div class="clearfix"></div>';} ?>
                 <?php endwhile;  ?>                
 
             </div>            

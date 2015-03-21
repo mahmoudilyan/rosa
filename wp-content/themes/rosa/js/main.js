@@ -16,16 +16,23 @@ $('document').ready(function (){
 
 	//$('.nav-container .menu').dropdown();
 
+  $('.nav-container .menu > li > ul .current-menu-item').parent().addClass("active");
+
 	$(".nav-container .menu > li > a").on("click", function(){
 		var $this = $(this),
 			$dropdown = $this.parent().find(".sub-menu");
 
+    $this.parents(".nav-container").find(".sub-menu").removeClass("active");
+
 		if($dropdown.length > 0){
-			$dropdown.toggleClass("active");
+			if ( $dropdown.hasClass("active") ){
+          $dropdown.removeClass("active");
+      } else {
+        $dropdown.addClass("active");
+      }
 			return false;
-
-
 		}
+
 	});
 
     // Initialize navgoco with default options

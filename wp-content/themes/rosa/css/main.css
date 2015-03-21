@@ -106,51 +106,55 @@ a {
   float: left;
 }
 /* line 123, ../scss/main.scss */
+.nav-container .menu > li .sub-menu > li.current-menu-item a {
+  font-weight: bold;
+}
+/* line 127, ../scss/main.scss */
 .nav-container .menu > li .sub-menu > li > a {
   color: #ff3300;
   padding: 0 15px;
 }
-/* line 130, ../scss/main.scss */
+/* line 134, ../scss/main.scss */
 .nav-container .menu > li .sub-menu.active {
   display: block;
 }
-/* line 135, ../scss/main.scss */
-.nav-container .menu > li.current_page_item a {
+/* line 139, ../scss/main.scss */
+.nav-container .menu > li.current_page_item a, .nav-container .menu > li.current-menu-parent > a {
   background-color: #fff;
   color: #ff3300;
   font-weight: bold;
   text-decoration: none;
   border-left: 0;
 }
-/* line 143, ../scss/main.scss */
-.nav-container .menu > li.current_page_item a + a {
+/* line 147, ../scss/main.scss */
+.nav-container .menu > li.current_page_item a + a, .nav-container .menu > li.current-menu-parent > a + a {
   border-left: 0;
 }
-/* line 148, ../scss/main.scss */
+/* line 152, ../scss/main.scss */
 .nav-container .menu > li:first-child a {
   border: 0;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 159, ../scss/main.scss */
 #content {
   margin-top: 20px;
 }
 
-/* line 159, ../scss/main.scss */
+/* line 163, ../scss/main.scss */
 .alignright {
   float: right;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
-/* line 165, ../scss/main.scss */
+/* line 169, ../scss/main.scss */
 .alignleft {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-/* line 171, ../scss/main.scss */
+/* line 175, ../scss/main.scss */
 .home-page-article {
   margin-top: 40px;
 }
@@ -206,14 +210,14 @@ input[type], textarea {
   text-align: right;
 }
 
-/* line 192, ../scss/main.scss */
+/* line 196, ../scss/main.scss */
 .widget h3 {
   text-transform: uppercase;
   font-size: 14px;
   color: #ff3300;
   font-weight: bold;
 }
-/* line 199, ../scss/main.scss */
+/* line 203, ../scss/main.scss */
 .widget h3:before {
   content: ' ';
   display: inline-block;
@@ -223,60 +227,60 @@ input[type], textarea {
   margin-right: 10px;
   margin-left: 5px;
 }
-/* line 211, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .widget ul {
   font-size: 11px;
   list-style-type: none;
   padding-left: 27px;
 }
-/* line 216, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
 .widget ul li {
   margin-bottom: 10px;
 }
-/* line 220, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 .widget ul span {
   display: block;
   color: #ff3300;
   font-size: 10px;
 }
-/* line 227, ../scss/main.scss */
+/* line 231, ../scss/main.scss */
 .widget .menu {
   background-color: #ff3300;
   padding: 15px;
 }
-/* line 231, ../scss/main.scss */
+/* line 235, ../scss/main.scss */
 .widget .menu > li > a {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
 }
-/* line 238, ../scss/main.scss */
+/* line 242, ../scss/main.scss */
 .widget .menu .sub-menu {
   list-style-type: circle;
   color: #fff;
 }
-/* line 242, ../scss/main.scss */
+/* line 246, ../scss/main.scss */
 .widget .menu .sub-menu a {
   font-size: 11px;
 }
-/* line 248, ../scss/main.scss */
+/* line 253, ../scss/main.scss */
 .widget .menu#menu-fields-of-work > li {
   margin-bottom: 10px;
 }
-/* line 251, ../scss/main.scss */
+/* line 256, ../scss/main.scss */
 .widget .menu#menu-fields-of-work > li:last-child {
   margin-bottom: 0;
 }
-/* line 255, ../scss/main.scss */
+/* line 260, ../scss/main.scss */
 .widget .menu#menu-fields-of-work > li a {
   color: #fff;
 }
 
-/* line 265, ../scss/main.scss */
+/* line 270, ../scss/main.scss */
 .lists {
   padding: 0;
 }
-/* line 268, ../scss/main.scss */
+/* line 273, ../scss/main.scss */
 .lists li {
   list-style-type: none;
   overflow: hidden;
@@ -284,7 +288,7 @@ input[type], textarea {
   padding: 10px;
   margin-bottom: 10px;
 }
-/* line 275, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 .lists li h6 {
   text-transform: uppercase;
   color: #ff3300;
@@ -292,11 +296,11 @@ input[type], textarea {
   margin: 0 0 10px 0;
   font-weight: bold;
 }
-/* line 283, ../scss/main.scss */
+/* line 288, ../scss/main.scss */
 .lists li a {
   color: #ff3300;
 }
-/* line 287, ../scss/main.scss */
+/* line 292, ../scss/main.scss */
 .lists li .img-post {
   width: 160px;
   height: 160px;
@@ -304,27 +308,54 @@ input[type], textarea {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 294, ../scss/main.scss */
+/* line 299, ../scss/main.scss */
 .lists li .img-post img {
   width: 100%;
   height: 100%;
 }
-/* line 301, ../scss/main.scss */
+/* line 306, ../scss/main.scss */
 .lists hr {
   clear: both;
   display: none;
 }
 
-/* line 309, ../scss/main.scss */
+/* line 314, ../scss/main.scss */
 .article h4 {
   color: #ff3300;
   font-size: 22px;
   font-weight: bold;
 }
-/* line 315, ../scss/main.scss */
+/* line 320, ../scss/main.scss */
 .article > img {
   width: 100%;
   height: auto;
+}
+
+/* line 330, ../scss/main.scss */
+.staff-container .single-staff > span {
+  color: #666;
+}
+/* line 334, ../scss/main.scss */
+.staff-container .single-staff .img-staff {
+  width: 180px;
+  height: 260px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+/* line 341, ../scss/main.scss */
+.staff-container .single-staff .img-staff img {
+  width: 100%;
+  height: auto;
+}
+/* line 348, ../scss/main.scss */
+.staff-container .single-staff .bio {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* line 353, ../scss/main.scss */
+.staff-container .single-staff .employee-title {
+  color: #ff3300;
 }
 
 /* line 6, ../scss/_publications.scss */
