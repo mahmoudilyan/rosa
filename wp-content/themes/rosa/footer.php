@@ -14,7 +14,7 @@
     	<div class="col-md-12">
     		<p class="copyright">All Right Reserved © Rosa Luxemburg Stiftung 2015
     			<span class="social-links">
-    				<a href="#"><img src="<?php bloginfo('template_url') ;?>/img/facebook.png" alt=""></a>
+    				<a href="https://www.facebook.com/rlfpal"><img src="<?php bloginfo('template_url') ;?>/img/facebook.png" alt=""></a>
     				<a href="#"><img src="<?php bloginfo('template_url') ;?>/img/youtube.png" alt=""></a>
     			</span>
     		</p>
