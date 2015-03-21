@@ -6,7 +6,8 @@ get_header() ;?>
         
         <div class="col-md-9">
             
-            <h3><?php _e('Fields of Work Jordan', 'rosa') ;?></h3>
+            <h3><?php _e('Fields of Work Jordan: ', 'rosa') ;?><span class="highlight">(<?php echo $_GET['fow_jordan_years'] ;?>)</span></h3>
+
 
             <?php if(have_posts()) : ?>
             
