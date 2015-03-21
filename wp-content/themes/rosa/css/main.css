@@ -302,8 +302,8 @@ input[type], textarea {
 }
 /* line 292, ../scss/main.scss */
 .lists li .img-post {
-  width: 160px;
-  height: 160px;
+  width: 220px;
+  height: 140px;
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;

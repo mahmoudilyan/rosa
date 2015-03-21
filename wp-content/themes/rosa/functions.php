@@ -43,12 +43,12 @@
 	   wp_enqueue_script('jquery');
 	}
     
-    function excerpt_read_more_link($output) {
-     global $post;
-     $output .= '<a href="'. get_permalink($post->ID) . '">'.__('Read More ...','fespal').'</a>';
-     return $output;
-    }
-    add_filter('the_excerpt', 'excerpt_read_more_link');    
+    // function excerpt_read_more_link($output) {
+    //  global $post;
+    //  $output .= '<a href="'. get_permalink($post->ID) . '">'.__('Read More ...','fespal').'</a>';
+    //  return $output;
+    // }
+    // add_filter('the_excerpt', 'excerpt_read_more_link');    
 	
     // Adding Featured Image
     add_theme_support( 'post-thumbnails' ); 

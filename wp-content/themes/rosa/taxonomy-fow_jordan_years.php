@@ -20,7 +20,7 @@ get_header() ;?>
                         ?>                        
                     </div>
                     <h6><?php the_title() ;?></h6>
-                    <?php the_content() ;?>
+                    <?php the_excerpt() ;?>
                     <a href="<?php the_permalink() ;?>"><?php _e('Read More ','fespal') ;?></a>
                 </p>
                 <hr>
