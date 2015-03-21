@@ -65,6 +65,15 @@
 //    	));
 //    }
     
+
+    if ( function_exists( 'register_nav_menus' ) ) {
+      register_nav_menus(
+        array (
+          'top_menu' => __( 'Primary Menu' , 'rosa' ),
+        )
+      );
+    }    
+
     if (function_exists('register_sidebar')) {
     	register_sidebar(array(
     		'name' => 'Home Page Sidebar',
@@ -76,6 +85,18 @@
     		'after_title'   => '</h3>'
     	));
     }
+
+    if (function_exists('register_sidebar')) {
+        register_sidebar(array(
+            'name' => 'Fields Of Work Page Sidebar',
+            'id'   => 'fields-of-work-sidebar-widget',
+            'description'   => 'These are widgets for the Fields Of Work Page',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>'
+        ));
+    }    
     
 //    if (function_exists('register_sidebar')) {
 //    	register_sidebar(array(

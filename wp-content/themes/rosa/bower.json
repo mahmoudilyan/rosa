@@ -14,6 +14,7 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.2",
-    "owlCarousel": "https://github.com/OwlFonk/OwlCarousel.git"
+    "owlCarousel": "https://github.com/OwlFonk/OwlCarousel.git",
+    "accordionMenu": "https://github.com/tefra/navgoco.git"
   }
 }

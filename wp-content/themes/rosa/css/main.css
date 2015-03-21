@@ -239,8 +239,40 @@ input[type], textarea {
   color: #ff3300;
   font-size: 10px;
 }
+/* line 227, ../scss/main.scss */
+.widget .menu {
+  background-color: #ff3300;
+  padding: 15px;
+}
+/* line 231, ../scss/main.scss */
+.widget .menu > li > a {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 238, ../scss/main.scss */
+.widget .menu .sub-menu {
+  list-style-type: circle;
+  color: #fff;
+}
+/* line 242, ../scss/main.scss */
+.widget .menu .sub-menu a {
+  font-size: 11px;
+}
+/* line 248, ../scss/main.scss */
+.widget .menu#menu-fields-of-work > li {
+  margin-bottom: 10px;
+}
+/* line 251, ../scss/main.scss */
+.widget .menu#menu-fields-of-work > li:last-child {
+  margin-bottom: 0;
+}
+/* line 255, ../scss/main.scss */
+.widget .menu#menu-fields-of-work > li a {
+  color: #fff;
+}
 
-/* line 232, ../scss/main.scss */
+/* line 269, ../scss/main.scss */
 .article img {
   width: 100%;
   height: auto;

@@ -28,4 +28,18 @@ $('document').ready(function (){
 		}
 	});
 
+    // Initialize navgoco with default options
+    $("#menu-fields-of-work").navgoco({
+        caretHtml: '',
+        accordion: true,
+        openClass: 'open',
+        save: true,
+        slide: {
+            duration: 400,
+            easing: 'swing'
+        },
+        // Add Active class to clicked menu item
+        //onClickAfter: active_menu_cb,
+    });
+
 });

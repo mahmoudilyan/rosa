@@ -71,7 +71,7 @@
             <div class="col-md-12">
                 <div class="nav-container">
                     
-                        <?php echo wp_nav_menu(); ?> 
+                        <?php echo wp_nav_menu(array('theme_location' => 'top_menu')); ?> 
                 </div>
             </div>
         </div>

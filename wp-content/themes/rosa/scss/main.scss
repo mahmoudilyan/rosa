@@ -223,6 +223,43 @@ a{
 			font-size: 10px;			
 		}
 	}
+
+	.menu{
+		background-color: #ff3300;
+		padding: 15px;
+
+		> li > a{
+			color: #fff;
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+
+
+		.sub-menu {
+			list-style-type: circle;
+			color: #fff;
+			
+			a{
+				font-size: 11px;
+			}
+		}
+
+		&#menu-fields-of-work{
+			> li{
+				margin-bottom: 10px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+
+				a{
+					color: #fff;
+
+				}
+			}
+		}
+
+	}
 }
 
 

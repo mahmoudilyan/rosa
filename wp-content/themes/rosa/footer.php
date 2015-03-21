@@ -27,6 +27,7 @@
 <script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/bower_components/owlCarousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/accordionMenu/src/jquery.navgoco.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 </body>
 </html>
