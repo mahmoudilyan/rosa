@@ -83,9 +83,7 @@ class News_Widget extends WP_Widget {
          endif;
         wp_reset_postdata();
         ?>
-        <!-- 
-        <a href="<?php //echo get_category_link($news_category);?>"><?php _e('Read More','rosa') ;?></a>
-        -->
+        <a href="<?php echo get_category_link($news_category);?>" class="highlight"><?php _e('See All','rosa') ;?></a>
         <?php
         echo '</div>';
         echo $after_widget;
