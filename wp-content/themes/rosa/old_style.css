@@ -1,0 +1,3089 @@
+#wrapper_site{
+    margin:0 auto 40px;
+    /* margin:0 0 40px 15px; */
+    width:980px;
+    padding:0 10px;
+}
+
+#wrapper_header{
+    padding:21px 0 5px;
+    width:100%; /* haslayout */
+}
+#wrapper_navigation{
+    padding:63px 0 0;
+    background-color:#f30;
+    margin-bottom:15px;
+}
+.regional #wrapper_navigation,
+.foreign #wrapper_navigation{
+    padding-top:43px;
+}
+
+#main_content{
+    float:left;
+    width:685px;
+    position:relative;
+}
+
+#right_content{
+    float:right;
+    width:275px;
+}
+
+/*
+ * Style
+ */
+
+#wrapper_content{
+    word-wrap:break-word;
+}
+.clear{
+    height:0px;
+    width:100%;
+    float:none;
+    clear:both;
+    overflow:hidden;
+    line-height:0px;
+    background-color:#fff; /* ie */
+}
+.clearfix:after, .cf:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+* + html .clearfix, * + html .cf{
+    min-height:10px;
+}
+span.more,
+.more_link a,
+a.icon{
+    padding-right:15px;
+    min-height:7px;
+    display:inline-block;
+    background:url(/fileadmin/sys/img/icons/orange_arrows.gif) no-repeat 100% 55%;
+}
+* html a.icon{
+    height:7px;
+}
+a.pdf,
+a.download_ics,
+a.download_pdf,
+a.download{
+    padding-left:15px;
+    padding-right:0;
+    background:no-repeat 0 0;
+    display:inline-block;
+    min-height:16px;
+    background-image:url(/fileadmin/sys/img/icons/download.gif);
+}
+* html a.download,
+* html a.download_ics,
+* html a.pdf,
+* html a.download_pdf{
+    height:16px;
+}
+a.pdf,
+a.download_pdf{
+    background-image:url(/fileadmin/sys/img/icons/pdf.gif);
+    padding-left:21px;
+}
+a.download_ics{
+    background-image:url(/fileadmin/sys/img/icons/ical.gif);
+    padding-left:18px;
+    margin-top:2px;
+}
+a.mail{
+    padding-left:19px;
+    background:url(/fileadmin/sys/img/icons/mail.png) no-repeat 0 55%;
+}
+
+span.more,
+.more_link a,
+a.more{
+    display:inline-block;
+    padding:0;
+    width:10px;
+    margin-left:3px;
+}
+span.more{
+    margin-left:5px;
+}
+.teaser_text span.more{
+    height:1em;
+    background-position:100% 95%;
+}
+* html .teaser_text span.more{
+    background-position:100% 70%;
+}
+* + html .teaser_text span.more{
+    background-position:100% 70%;
+}
+.more_link a{
+    margin-left:10px;
+}
+a.with_text{
+    width:auto;
+    padding-right:15px;
+    background-position:100% 55%;
+}
+a.map{
+    display:inline-block;
+    padding-left:20px;
+    min-height:15px;
+    margin:1px 0;
+    background:url(/fileadmin/sys/img/icons/info_bubble.gif) no-repeat 0 50%;
+}
+* html a.map{
+    height:15px;
+}
+a.inline{
+    display:inline-block;
+}
+
+/* adjustments to squeeze long links next to images */
+.content_text a.download_pdf,
+.content_text a.download,
+.content_text a.icon,
+.content_text a.external{
+    display:inline;
+}
+.content_text a.download_pdf,
+.content_text a.download{
+    padding-top:2px;
+}
+* html .content_text a.download_pdf,
+* html .content_text a.download,
+* html .content_text a.icon,
+* html .content_text a.external{
+    display:inline-block;
+    padding-top:0;
+}
+* + html .content_text a.download_pdf,
+* + html .content_text a.download,
+* + html .content_text a.icon,
+* + html .content_text a.external{
+    display:inline-block;
+    padding-top:0;
+}
+.article_header .content_text a.pdf{
+    display:inline-block;
+}
+
+a.plain,
+.teaser_text h1 a,
+.teaser_text h2 a,
+.teaser_text h3 a,
+.teaser_text p a,
+.teaser_blog h4 a{
+    color:#000;
+}
+#main_content .teaser p a.plain,
+#main_content .teaser_text h1 a,
+#main_content .teaser_text h2 a,
+#main_content .teaser_text h3 a,
+#main_content .teaser_text p a{
+    color:#333;
+}
+#main_content .container p.last{
+    margin-bottom:0 !important;
+}
+#main_content .search_results .teaser_text h3,
+#main_content .tx-indexedsearch-res .teaser_text h2{
+    font-size:1.1em; /* 12px */
+    margin-bottom:5px;
+}
+#main_content .search_results .teaser_text h3 a,
+#main_content .tx-indexedsearch-res .teaser_text h2 a{
+    color:#f30;
+}
+#main_content .search_results .teaser_text h3 .result_count{
+    font-weight:normal;
+}
+.search_result .search_term{
+    font-weight:bold;
+}
+
+.teaser_text p a:hover{
+    text-decoration:none;
+}
+a.facebook_link{
+    background-image:url(/fileadmin/sys/img/icons/facebook_logo_small.gif);
+}
+a.youtube_link{
+    background-image:url(/fileadmin/sys/img/icons/youtube_logo_small.gif);
+}
+a.twitter_link{
+    background-image:url(/fileadmin/sys/img/icons/twitter_logo_small.gif);
+}
+a.external{
+    display:inline-block;
+    padding-right:15px;
+    background:url(/fileadmin/sys/img/icons/external_arrow.gif) no-repeat 100% 50%;
+}
+#calendar-event-backlink a,
+.back_link a{
+    padding-left:15px;
+    min-height:7px;
+    display:inline-block;
+    font-weight:bold;
+    background:url(/fileadmin/sys/img/icons/orange_arrows_left.gif) no-repeat 0 55%;
+    font-size:1.1em /* 12px */
+}
+* html #calendar-event-backlink a,
+* html .back_link a{
+    background-position: 0 65%;
+}
+* + html #calendar-event-backlink a,
+* + html .back_link a{
+    background-position: 0 65%;
+}
+.hovered{
+    text-decoration:underline;
+}
+.back_link{
+    margin-top:50px;
+    position:relative;
+}
+#calendar-event-backlink a.top,
+.back_link a.top{
+    display:block;
+    position:absolute;
+    right:0;
+    top:0;
+    height:17px;
+    width:46px;
+    text-indent:-10000em;
+    padding:0;
+    background:url(/fileadmin/sys/img/icons/top_button.png) no-repeat;
+}
+.article .back_link{
+    margin-top:0;
+}
+
+.red_text{
+    color:#f30;
+}
+.hide,
+.jump_block{
+    height:1em;
+    width:50em;
+    position:absolute;
+    left:-1000em;
+    overflow:hidden;
+}
+.author{
+    font-style:italic;
+}
+.file_ext{
+    text-transform:uppercase;
+}
+
+.container{
+    margin-bottom:25px;
+}
+
+
+#rls_logo{
+    float:left;
+    margin-top:5px;
+}
+.foreign #rls_logo,
+.regional #rls_logo{
+    margin-top:7px;
+}
+.thueringen #rls_logo{
+    margin-top:5px; /* space for umlaut */
+}
+#meta_header{
+    float:right;
+    margin-top:5px;
+}
+
+#meta_footer{
+    clear:both;
+    background:#f30 url(/fileadmin/sys/img/backgrounds/footer_bottom.gif) no-repeat 100% 100%;
+    color:#fff;
+    padding:18px 0 35px 18px;
+    line-height:1.35;
+}
+.brussels #meta_footer{
+    background-image:url(/fileadmin/sys/img/backgrounds/footer_bottom_brussels.gif);
+}
+.english #meta_footer{
+    background-image:url(/fileadmin/sys/img/backgrounds/footer_bottom_english.gif);
+}
+#meta_footer_inner{
+    background:url(/fileadmin/sys/img/backgrounds/footer_divider.gif) no-repeat 465px 3px;
+    width:100%; /* haslayout */
+}
+#meta_footer h4{
+    text-transform:uppercase;
+    font-size:1.185em; /* 13px */
+    font-weight:bold;
+    line-height:1.05;
+    margin-bottom:1px;
+    color:#fff;
+}
+#meta_footer a{
+    color:#fff;
+}
+#meta_footer a.inline{
+    display:inline;
+}
+#meta_footer .footer_sub a{
+    float:left;
+    clear:left;
+    font-weight:bold;
+    text-transform:uppercase;
+    word-wrap:normal;
+}
+#meta_footer a.recommend,
+#meta_footer a.print,
+#meta_footer a.rss,
+#meta_footer a.bookmark{
+    padding-left:19px;
+    margin-bottom:2px;
+    background-repeat:no-repeat;
+    background-position:0 3px;
+}
+#meta_footer a.recommend{
+    background-image:url(/fileadmin/sys/img/icons/recommend_footer.gif);
+}
+#meta_footer a.print{
+    background-image:url(/fileadmin/sys/img/icons/print_footer.gif);
+}
+#meta_footer a.rss{
+    background-image:url(/fileadmin/sys/img/icons/rss_footer.gif);
+}
+#meta_footer a.bookmark{
+    background-image:url(/fileadmin/sys/img/icons/bookmark_footer.gif);
+}
+li.social_bookmarks{
+    padding:6px 0 2px;
+    min-height:10px; /* haslayout */
+}
+* html li.social_bookmarks{
+    height:10px; /* haslayout */
+}
+.footer_col{
+    float:left;
+    min-height:10px;
+    padding:0 10px 13px 0;
+    background:url(/fileadmin/sys/img/backgrounds/footer_dot.gif) no-repeat 1px 100%;
+}
+* html .footer_col{
+    height:10px;
+}
+.footer_address,
+.footer_col_empty{
+    background-image:none;
+}
+.footer_address{
+    margin-top:50px;
+    padding-bottom:0;
+}
+.footer_left{
+    float:left;
+    width:485px; /* IE */
+}
+.footer_col1{
+    width:175px;
+}
+.footer_col2{
+    width:155px;
+}
+.footer_col2wide{
+    width:200px;
+}
+.footer_col3{
+    width:105px;
+    padding-right:30px;
+}
+.footer_col4{
+    width:170px;
+    padding-right:0;
+    padding-bottom:5px;
+    background:none;
+}
+.footer_sub{
+    padding:0 0 13px;
+    margin:-3px 0 0;
+    line-height:1.6;
+    background:url(/fileadmin/sys/img/backgrounds/footer_dot.gif) no-repeat 1px 100%;
+}
+.footer_sub li{
+    clear:left;
+    text-transform:uppercase;
+}
+
+h1.section_header, h2.section_header{
+    text-indent:-10000em;
+    height:15px;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    margin:-3px 0 15px; /* umlaut spacing */
+}
+#right_content h2.section_header{
+    height:12px;
+}
+/* delete if gifbuilder */
+.section_aktuell{
+    background-image:url(/fileadmin/sys/img/headlines/aktuell.gif);
+}
+.section_nachhaltigkeit{
+    background-image:url(/fileadmin/sys/img/headlines/nachhaltigkeit.gif);
+}
+.section_parteien{
+    background-image:url(/fileadmin/sys/img/headlines/parteien.gif);
+}
+.section_zeitgeschichte{
+    background-image:url(/fileadmin/sys/img/headlines/zeitgeschichte.gif);
+}
+.section_kultur{
+    background-image:url(/fileadmin/sys/img/headlines/kultur.gif);
+}
+.section_international{
+    background-image:url(/fileadmin/sys/img/headlines/international.gif);
+}
+.section_kapitalismuskritik{
+    background-image:url(/fileadmin/sys/img/headlines/kapitalismuskritik.gif);
+}
+.section_veranstaltungen{
+    background-image:url(/fileadmin/sys/img/headlines/veranstaltungen.gif);
+}
+.section_publikationen{
+    background-image:url(/fileadmin/sys/img/headlines/publikationen.gif);
+}
+.section_autorenprofil{
+    background-image:url(/fileadmin/sys/img/headlines/autorenprofil.gif);
+}
+.section_mitteilungenundpublikationen{
+    background-image:url(/fileadmin/sys/img/headlines/mitteilungenundpublikationen.gif);
+}
+
+.section_nachhaltigkeit_mitteilungen{
+    background-image:url(/fileadmin/sys/img/headlines/nachhaltigkeit_mitteilungen.gif);
+}
+.section_nachhaltigkeit_publikationen{
+    background-image:url(/fileadmin/sys/img/headlines/nachhaltigkeit_publikationen.gif);
+}
+.section_nachhaltigkeit_kommentar{
+    background-image:url(/fileadmin/sys/img/headlines/nachhaltigkeit_kommentar.gif);
+}
+.section_nachhaltigkeit_leserkommentare{
+    background-image:url(/fileadmin/sys/img/headlines/nachhaltigkeit_leserkommentare.gif);
+}
+
+
+#right_content .section_themen{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_themen.gif);
+}
+#right_content .section_publikationen{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_publikationen.gif);
+}
+#right_content .section_kalender{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_kalender.gif);
+}
+#right_content .section_rlsbundesweit{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_rlsbundesweit.gif);
+}
+#right_content .section_rlsweltweit{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_rlsweltweit.gif);
+}
+#right_content .section_themenspezial{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_themenspezial.gif);
+}
+#right_content .section_videoszumthema{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_videoszumthema.gif);
+}
+#right_content .section_publikationenzumthema{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_publikationenzumthema.gif);
+}
+#right_content .section_veranstaltungssuche{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_veranstaltungssuche.gif);
+}
+#right_content .section_publikationensuche{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_publikationensuche.gif);
+}
+#right_content .section_weitereveranstaltungen{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_weitereveranstaltungen.gif);
+}
+#right_content .section_weiterepublikationen{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_weiterepublikationen.gif);
+}
+#right_content .section_video{
+    background-image:url(/fileadmin/sys/img/headlines/sidebar_video.gif);
+}
+/* END delete if gifbuilder */
+
+.section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar.gif);
+}
+.english .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/comment.gif);
+}
+.page_zeitgeschichte .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_zeitgeschichte.gif);
+}
+.page_nachhaltigkeit .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_nachhhaltigkeit.gif);
+}
+.page_kapitalismuskritik .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_kapitalismuskritik.gif);
+}
+.page_parteien .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_parteien.gif);
+}
+.page_kultur .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_kultur.gif);
+}
+.page_international .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_international.gif);
+}
+.page_politisch .section_comment{
+    background-image:url(/fileadmin/sys/img/headlines/kommentar_politisch.gif);
+}
+
+
+.section_image{
+    margin-bottom:10px;
+}
+.show_more,
+.show_all{
+    width:210px;
+    text-align:right;
+    font-size:0.9em;
+    margin-top:-5px;
+    background-color:#f30;
+}
+.show_all_wide{
+    width:240px;
+}
+.after_tabs{
+    margin-top:0;
+}
+#right_content .show_all{
+    width:100%;
+    margin-top:-11px;
+}
+#right_content .teaser_mixed h3{
+    font-size:1em;
+    margin-bottom:5px;
+}
+#right_content .teaser_mixed .show_all{
+    margin-top:10px;
+}
+#right_content .teaser_flickr .show_all{
+    margin-top:0;
+}
+.show_nachhaltigkeit{
+    background-color:#528101;
+}
+.show_kapitalismus_alternativen{
+    background-color:#528101;
+}
+.show_parteien{
+    background-color:#4b66ac;
+}
+.show_zeitgeschichte{
+    background-color:#AB9E96;
+}
+.show_kultur{
+    background-color:#975cb2;
+}
+.show_international{
+    background-color:#0e7c93;
+}
+.show_gesellschaftsanalyse,
+.show_kapitalismuskritik{
+    background-color:#dd0072;
+}
+.show_politisch{
+    background-color:#aa5563;
+}
+.regional .show_all, .english .show_all{
+    background-color:#f30 !important;
+}
+.mediathek_teaser .show_all span,
+.show_all a{
+    display:inline-block;
+    padding:2px 5px 3px 20px;
+    background:url(/fileadmin/sys/img/icons/white_arrows.gif) no-repeat 5px 50%;
+    color:#fff;
+}
+.show_more a{
+    display:inline-block;
+    padding:3px 17px 3px 5px;
+    margin-right:3px;
+    background:url(/fileadmin/sys/img/icons/white_plus.gif) no-repeat 100% 50%;
+    color:#fff;
+}
+
+.teaser_img a{
+    display:block;
+    text-indent:-10000em;
+    overflow:hidden;
+    height:100px;
+    background-repeat:no-repeat;
+}
+.teaser_flickr h3{
+    text-indent:-10000em;
+    overflow:hidden;
+    height:18px;
+    margin-bottom:10px;
+    background:url(/fileadmin/sys/img/logos/flickr_logo.gif) no-repeat;
+}
+.teaser_flickr p{
+    font-size:0.91em; /* 10px */
+    margin-bottom:0.5em;
+}
+.teaser_flickr a.icon{
+    top:-5px;
+    position:relative;
+}
+.teaser_flickr .image_block a{
+    float:left;
+    display:block;
+    overflow:hidden;
+    height:79px;
+    width:79px;
+    margin:0 19px 15px 0;
+}
+.teaser_flickr .image_block a.last{
+    margin-right:0;
+}
+.teaser_flickr .image_block a img{
+    border:2px solid #0064da;
+
+}
+.teaser_text{
+    background-color:#f4f4f4;
+    color:#333;
+    padding:12px 15px 15px;
+    margin-bottom:5px;
+}
+* html .teaser_text{
+    height:1%; /* haslayout */
+}
+.teaser_themes .teaser_text{
+    padding:0;
+}
+.teaser_odd{
+    background-color:#ececec;
+}
+.teaser_block{
+    background:url(/fileadmin/sys/img/backgrounds/teaser_block_bg.gif) repeat-y;
+    margin-bottom:5px;
+    width:100%; /* haslayout */
+}
+body.home .teaser_block{
+    margin-top:-20px;
+}
+.teaser_themes{
+    background-image:none;
+}
+.header_teaser,
+.mediathek_top_header{
+    /*height:340px;*/
+    margin-bottom:5px;
+    background-repeat:no-repeat;
+    background-color:#A49791;
+    position:relative;
+    width:685px; /* ie6 haslayout */
+}
+.header_teaser .teaser_text{
+    background:transparent url(/fileadmin/sys/img/backgrounds/teaser_overlay.png);
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:655px;
+    margin-bottom:0;
+}
+
+* html .header_teaser .teaser_text{
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/fileadmin/sys/img/backgrounds/teaser_overlay_ie6.png', sizingMethod='scale');
+}
+.header_teaser h3,
+.mediathek_top_header h3{
+    font-size:1.641em;
+    line-height:1.2;
+}
+.teaser_small{
+    background-color:transparent;
+    width:310px;
+    float:left;
+    margin-bottom:0;
+}
+.teaser_themes .teaser_small{
+    width:332px;
+}
+.teaser_themes .teaser_small img{
+    width:332px;
+    margin-bottom:10px;
+}
+.teaser_right{
+    float:right;
+}
+.teaser_content{
+    margin-left:105px;
+}
+.teaser_blog .teaser_content {
+    margin-top: 5px;
+}
+.teaser_themes .teaser_content{
+    margin-left:0;
+}
+.teaser_sidebar_pub .teaser_content{
+    margin-left:80px;
+}
+.teaser_sidebar_cal .teaser_content{
+    margin-left:0;
+}
+.header_teaser .teaser_content{
+    margin-left:0;
+}
+#right_content .teaser_text{
+    background-color:transparent;
+    margin-bottom:10px;
+    padding:0 0 10px;
+    border-bottom:1px solid #a39fa0;
+}
+#right_content .teaser_content{
+    line-height:1.2;
+}
+#right_content .teaser_content h3{
+    font-size:1em;
+}
+#right_content .teaser_sidebar_cal .meta_info{
+    font-weight:normal;
+    font-style:italic;
+}
+#right_content .teaser_sidebar_cal .cal_date,
+#right_content .teaser_sidebar_pub .meta_info{
+    font-weight:normal;
+    font-style:italic;
+}
+#main_content .teaser_cal img,
+.teaser_text img.thumb,
+.teaser_text .thumb_link img{
+    float:left;
+    width:90px;
+    height: auto !important;
+    margin-top:3px;
+}
+.teaser_sidebar_pub img.thumb,
+#right_content .thumb_link img{
+    float:left;
+    width:70px;
+    margin-top:3px;
+}
+.teaser_pub{
+    min-height:10px; /* ie7 */
+}
+.teaser_pub img.thumb{
+    border:1px solid #a39fa0;
+    width:88px;
+}
+.teaser_pub a.download_pdf{
+    margin-top:15px;
+}
+.content_category{
+    text-transform:uppercase;
+    /*font-size:0.91em;*/
+    font-weight:bold;
+    margin-bottom:5px;
+    color:#f30;
+}
+.teaser_pub .content_category,
+span.content_category{
+    margin-bottom:0;
+}
+.cat_zeitgeschichte,
+.article_zeitgeschichte .content_category{
+    color:#AB9E96;
+}
+.cat_gesellschaftsanalyse,
+.article_gesellschaftsanalyse .content_category,
+.cat_kapitalismuskritik,
+.article_kapitalismuskritik .content_category{
+    color:#dd0072;
+}
+.cat_nachhaltigkeit,
+.article_nachhaltigkeit .content_category{
+    color:#528101;
+}
+.cat_kapitalismus_alternativen,
+.article_kapitalismus_alternativen .content_category{
+    color:#528101;
+}
+.cat_parteien,
+.article_parteien .content_category{
+    color:#4b66ac;
+}
+.cat_kultur,
+.article_kultur .content_category{
+    color:#975cb2;
+}
+.cat_international,
+.article_international .content_category{
+    color:#0e7c93;
+}
+.cat_politisch,
+.article_politisch .content_category{
+    color:#aa5563;
+}
+
+.english .content_category,
+.english .article .content_category,
+.regional .content_category,
+.regional .article .content_category{
+    color:#f30 !important;
+}
+
+.teaser_text .meta_info{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.teaser_text .comment_count{
+    padding-left:15px;
+    background:url(/fileadmin/sys/img/icons/comments.gif) no-repeat 0 100%;
+}
+.meta_info{
+    /*font-size:0.91em;*/
+}
+.meta_info .content_type{
+    text-transform:uppercase;
+}
+.meta_info .sub_info{
+    font-weight:normal;
+}
+
+.teaser_cal .meta_info{
+    font-weight:normal;
+    float:left;
+    width:110px;
+    margin-right:20px;
+    font-size:1em;
+    line-height:1.2;
+}
+.teaser_cal .meta_info strong{
+    display:block;
+    margin-bottom:5px;
+    color:#000;
+}
+.teaser_cal .meta_info .event_type{
+    display:block;
+    margin-bottom:5px;
+}
+.teaser_cal .teaser_content .event_type{
+    text-transform: none;
+    color:#333;
+}
+.teaser_cal .meta_info .cal_date{
+    font-style:italic;
+}
+.teaser_cal .teaser_content{
+    margin-left:230px;
+}
+p.no_events{
+    padding-top:10px;
+}
+p.no_events,
+p.no_news{
+    font-size:1.1em; /* 12px */
+    padding-top:5px;
+}
+
+.news_search_whatis{
+    padding-top:20px;
+}
+
+
+
+/* select dropdowns */
+.select_control{
+    background:#a49791 no-repeat 100% 50%;
+    color:#fff;
+    padding:2px 30px 3px 5px;
+    min-height:15px; /* haslayout */
+}
+* html .select_control{
+    height:15px; /* haslayout */
+}
+.select_list{
+    border:1px solid #a49791;
+    border-top:0;
+    padding:5px 0;
+}
+.select_list li{
+    width:100%; /* haslayout */
+}
+.select_list li a{
+    padding:0 20px 1px 10px;
+    color:#000;
+    display:block;
+}
+.select_list li a:hover{
+    background-color:#ececec;
+    text-decoration:none;
+}
+.active_select .select_control{
+    cursor:pointer !important;
+
+}
+.active_select .select_control{
+    background-image:url(/fileadmin/sys/img/icons/select_arrow_down.gif);
+}
+.active_select .open_select{
+    background-image:url(/fileadmin/sys/img/icons/select_arrow_up.gif) !important;
+}
+
+.calendar_select{
+    margin-bottom:10px;
+}
+.calendar_select .select_list{
+    height:100px;   
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.sliding_calendar_select .select_list ul{
+    width:250px; /* ie */
+}
+.sliding_calendar_select{
+    position:absolute;
+    z-index:10;
+    width:275px;
+    margin-bottom:0;
+}
+.sliding_calendar_select .select_control{
+    width:124px;
+    position:relative;
+    left:115px;
+    border-left:1px solid #fff;
+}
+        /* not required on live!  */
+.sliding_calendar_select .select_control_opera{ /* adjustment for opera */
+    /* bottom:-15px; */
+}
+.sliding_calendar_select .select_control_opera + .select_list{ /* adjustment for opera */
+    /* position:relative; */
+    /* top:15px; */
+}
+.sliding_calendar_select .select_control_opera + .animating{
+    /* opacity:0.1; */
+}
+    /* / not required on live!  */
+.sliding_calendar_select .select_list{
+    clear:right;
+    background-color:#fff;
+}
+
+.sliding_calendar_select .animating{
+    overflow-y:hidden;
+}
+#right_content .cal_headline{
+    background-color:#FF3300;
+    color:#fff;
+    padding:2px 0 3px 10px;
+    margin-bottom:15px;
+}
+
+
+/* generic rte container */
+.content_text{
+    /*padding:0 15px;*/
+}
+
+.content_image{
+    margin-bottom:15px;
+    /*margin-top:-15px;*/
+}
+.article_image{
+    /*margin-left:10px;*/
+    float:right;
+    clear:right;
+    margin-top:0;
+    margin-bottom:0;
+}
+.content_image img,
+.article_image img{
+    margin-top:15px;
+    display:block;
+}
+.content_image .single_image img{
+    margin-top:0;
+}
+.content_image .single_image{
+    margin-top:15px;
+}
+.content_image .single_image{
+    margin-top:15px;
+}
+.content_image .image_col{
+    margin-top:0;
+    padding-top:15px;
+}
+
+.image_text_left .content_image{
+    float:left;
+    margin:-10px 10px 10px 0;
+}
+.image_text_right .content_image{
+    float:right;
+    margin:-10px 0 10px 10px;
+}
+
+
+
+/* article detail view / rte content */
+.article_body{
+    /*padding:0 15px;*/
+}
+.article .meta_info{
+    margin-bottom:5px;
+}
+.article .content_category{
+    font-size:1em;
+    display:block;
+    margin-bottom:5px;
+}
+h1.text_h1,
+.article h1{
+    font-size:1.36em; /* 15px */
+    margin-bottom:15px;
+}
+.article_images{
+    float:right;
+    margin:-15px 0 10px 15px;
+}
+.article_publication .article_image img{
+    /*border:1px solid #4b4b4b;*/
+}
+.content_image .caption,
+.article_image .caption{
+    padding:8px 10px 10px;
+    background-color:#F4F4F4;
+}
+.article .content_text{
+    /*padding:0;*/
+}
+.article_event .content_text{
+    margin-bottom:20px;
+}
+.article_event .article_header .content_text{
+    margin-bottom:0;
+}
+.article h2,
+.content_text h2,
+.content_text h3,
+.content_text h4,
+.content_text p,
+.content_text ul,
+.content_text ol,
+.content_extra_info p,
+.content_text table{
+    margin-bottom:15px;
+    font-size:1.1em; /* 12px */
+}
+.content_text li ul,
+.content_text li ol{
+    font-size:1em; /* 12px */
+    padding-top:5px;
+}
+.bottom_reset,
+.content_text .clear{
+    margin-bottom:0 !important;
+    margin-top:-15px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .bottom_reset,
+    .content_text .clear{
+        margin-top:0;
+    }
+}
+
+.content_text h2{
+    font-size:1.3em; /* 14px */
+}
+.content_text h2.spaced,
+.content_text h3.spaced{
+    padding-top:20px;
+}
+.content_text table{
+    background-color:#ececec;
+}
+.content_text .slider_body table{
+    background-color:#f4f4f4;
+}
+.content_text .slider_body table{
+    margin-left:-15px;
+    width:685px;
+}
+.content_text tr.even{
+    background-color:#f4f4f4;
+}
+.content_text .slider_body tr.even{
+    background-color:#ececec;
+}
+.content_text td,
+.content_text th{
+    padding:15px;
+    border-right:3px solid #fff;
+    border-bottom:3px solid #fff;
+}
+.content_text .slider_content td,
+.content_text .slider_content th{
+    padding:3px 15px 4px 15px;
+    border-right:none;
+    border-bottom:none;
+}
+.content_text table p{
+    margin-bottom:0;
+    font-size:1em;
+}
+* html .content_text ul{
+    height:10px; /* haslayout */
+}
+.divider hr,
+.content_text hr{
+    display:block;
+    margin-bottom:15px;
+    line-height:1px;
+    background-color:#abaaaf;
+    color:#abaaaf;
+    border:0;
+    height:1px;
+    overflow:hidden;
+}
+* html .content_text hr{
+    margin-bottom:10px;
+}
+* + html .content_text hr{
+    margin-bottom:10px;
+}
+.divider hr{
+    margin-bottom:0;
+}
+.content_text li{
+    padding-left:10px;
+    background:url(/fileadmin/sys/img/icons/red_dot.gif) no-repeat 0 0.6em;
+    margin-bottom:5px;
+}
+.sitemap li,
+.content_text .link_list li{
+    padding-left:0;
+    background-image:none;
+    margin-bottom:10px;
+}
+.article_header .content_text .link_list li{
+    margin-bottom:0;
+}
+.sitemap li{
+    font-size:1.1em; /* 12px */
+}
+.content_text ol{
+    padding-left:20px;
+}
+* html .content_text ol{
+    padding-left:25px;
+}
+* + html .content_text ol{
+    padding-left:25px;
+}
+.content_text ol li{
+    padding-left:0;
+    background-image:none;
+}
+.content_text .logo_link_list a{ /* kontakt sidebar - not available in RTE */
+    padding-left:20px;
+    display:inline-block;
+    min-height:16px;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    color:#000;
+}
+* html .content_text .logo_link_list a{
+    height:16px;
+}
+.content_text img{
+    float:right;
+    margin:0 0 5px 10px;
+}
+.content_text table img{
+    float:none;
+    margin:0 10px 5px 0;
+} 
+.article .content_text .video_container p{
+    margin-bottom:0;
+    font-size:1em; /* 11px */
+}
+.video_container{
+    padding:15px;
+    background-color:#f4f4f4;
+    margin-bottom:15px;
+    position:relative;
+    /*width:655px;*/
+    /*margin-left:-15px;*/
+    min-height:0; /* haslayout */
+}
+* html .video_container{
+    height:0; /* haslayout */
+}
+.video_container .caption{
+    position:absolute;
+    right:15px;
+    bottom:35px;
+    width:105px;
+}
+.video_container .caption .source{
+    margin-top:15px;
+    color:#333;
+}
+.content_text .video_container img{
+    float:none;
+    margin:0;
+}
+
+.content_address h3{
+    margin-bottom:5px;
+}
+/* ### legacy RTE content ### */
+.content_text table.NOBORDER{ 
+    background-color:transparent;
+    width:auto;
+}
+.content_text a.internal-link img,
+.content_text a.internal-link-new-window img,
+.content_text a.external-link img,
+.content_text a.external-link-new-window img,
+.content_text a.mail img,
+.bodytext a.mail img,
+.content_text a.download img{
+    /*display:none !important;*/
+}
+.content_text a.mail img{
+    display:none !important;
+}
+.content_text table.NOBORDER td, 
+.content_text table.NOBORDER th{
+    padding:0;
+}
+.content_text table.contenttable{
+    width:100% !important;
+}
+/*
+.content_text a.download{
+    padding-left:21px;
+    background:no-repeat 0 0;
+    display:inline-block;
+    min-height:16px;
+    background-image:url(/fileadmin/sys/img/icons/download.gif);
+}
+* html .content_text a.download{
+    height:16px;
+}
+*/
+.content_text a.external-link,
+.content_text a.external-link-new-window{
+    padding-right:15px;
+    background:url(/fileadmin/sys/img/icons/external_arrow.gif) no-repeat 100% 50%;
+}
+.content_text a.internal-link,
+.content_text a.internal-link-new-window{
+    padding-right:15px;
+    min-height:7px;
+    
+    background:url(/fileadmin/sys/img/icons/orange_arrows.gif) no-repeat 100% 55%;
+}
+* html .content_text a.internal-link,
+* html .content_text a.internal-link-new-window{
+    height:7px;
+    display:inline-block;
+}
+* + html .content_text a.internal-link,
+* + html .content_text a.internal-link-new-window{
+    display:inline-block;
+}
+* html .content_text a.external-link,
+* html .content_text a.external-link-new-window{
+    display:inline-block;
+}
+* + html .content_text a.external-link,
+* + html .content_text a.external-link-new-window{
+    display:inline-block;
+}
+.content_text td,
+.content_text th{
+    background-color:transparent !important;
+}
+.content_text img.float-left{
+    float:right !important;
+}
+.content_text object{
+    display:block;
+    margin-bottom:15px;
+}
+p.indent{
+    padding-left:10px;
+}
+/* ### /legacy RTE content ### */
+
+.show_more{
+    margin-top:25px;
+}
+.article_header{
+    background-color:#F4F4F4;
+    margin-bottom:20px;
+    padding:13px 15px 15px;
+    font-size:1.1em; /* 12px */
+    min-height:0; /* haslayout */
+}
+* html .article_header{
+    height:0; /* haslayout */
+}
+.article_header_joined{
+    margin-top:-15px;
+}
+.article_header .publication_cat{
+    display:inline-block;
+    margin-bottom:5px;
+}
+.article_header .publication_cat a.icon{
+    margin-left:5px;
+}
+.article_header .download_list{
+    margin-bottom:-15px;
+    float:left;
+    width:100%;
+}
+* html .article_header .download_list{
+    margin-bottom:0;
+}
+* + html .article_header .download_list{
+    margin-bottom:0;
+}
+.article_header .download_list li{
+    float:left;
+    margin-bottom:15px;
+    margin-right:15px;
+    white-space:nowrap;
+}
+.article_footer{
+    /*background:url(/fileadmin/sys/img/backgrounds/article_footer_bg.gif) repeat-y;*/
+    background-color:#f4f4f4;
+    margin:25px 0 20px; 
+    width:100%; /* haslayout */
+    clear:both;
+}
+.article_footer .author_info{
+    padding:15px 0 0 15px;
+    width:650px;
+    float:left;
+}
+.article_footer .author_item{
+    width:165px;
+    margin:0 15px 15px 0;
+    float:left;
+}
+.article_footer .util_links{
+    padding:15px 0 10px;
+    width:275px;
+    float:left; 
+}
+.article_footer .author_info .author_img{
+    display:inline-block;
+    margin-right:10px;
+    width:45px;
+    vertical-align:top;
+}
+.article_footer .author_info .author_text{
+    display:inline-block;
+    vertical-align:bottom;
+    width:110px;
+}
+.article_footer .author_info .icon{
+    display:inline;
+}
+.article_footer .util_links ul{
+    float:left; /* ie */
+    width:100%; /* ie */
+}
+.article_footer .util_links li{
+    float:left;
+    margin:0 10px 5px 0;
+}
+.article_footer .util_links a{
+    background-repeat:no-repeat;
+    background-position:0 50%;
+}
+a.util_bookmark{
+    background-image:url(/fileadmin/sys/img/icons/grey_flag.gif);
+    padding-left:16px;
+}
+a.util_send{
+    background-image:url(/fileadmin/sys/img/icons/grey_envelope.gif);
+    padding-left:21px;
+}
+a.util_print{
+    background-image:url(/fileadmin/sys/img/icons/grey_print.gif);
+    padding-left:19px;
+}
+.article_footer .util_links .share_links{
+    margin:10px 0 0 -5px;
+    float:none;
+}
+* html .article_footer .util_links .share_links{
+    margin-top:20px;
+}
+* + html .article_footer .util_links .share_links{
+    margin-top:20px;
+}
+ .share_links li,
+.article_footer .util_links .share_links li{
+    float:left;
+    margin:5px 0 0 5px;
+}
+.article_footer .util_links .share_links li.first{
+    margin-left:3px;
+}
+ .share_links img,
+.article_footer .util_links .share_links img{
+    height:20px;
+    width:20px;
+    display:block; /* ie6 */
+}
+.footer_sub .share_links{
+    float:left;
+    margin-left:-5px;
+}
+* html .footer_sub .share_links{
+    margin-left:-10px;
+}
+.footer_sub .share_links li{
+    clear:none;
+    padding:1px;
+    background:#fff;
+}
+.article .tab{
+}
+
+/* paging */
+.tx-pagebrowse,
+.browsebox,
+.paging{
+    background-color:#ececec;
+    color:#868686;
+    padding:1px 15px 2px;
+    margin-bottom:3px;
+    text-align:center;
+}
+* html .tx-pagebrowse,
+* html .browsebox,
+* html .paging{
+    height:1%; /* haslayout */
+}
+.tx-pagebrowse ul,
+.tx-pagebrowse ol,
+.tx-pagebrowse li,
+.browsebox ul,
+.browsebox li,
+.paging ul,
+.paging li{
+    display:inline;
+}
+.tx-pagebrowse li,
+.browsebox li{
+    padding:0 2px;
+}
+.tx-pagebrowse li a,
+.browsebox li a,
+.paging li a{
+    padding:0 2px;
+}
+
+.browsebox .tx-indexedsearch-browselist-currentPage a,
+.paging li.current a{
+    text-decoration:underline;
+    font-weight:bold;
+    cursor:text;
+}
+.tx-pagebrowse *,
+.browsebox *,
+.paging *{
+    background-repeat:no-repeat;
+}
+.paging .prev{
+    margin-right:5px;
+    padding-left:9px;
+    background-position:0 60%;
+}
+.paging .next{
+    margin-left:5px;
+    padding-right:9px;
+    background-position:100% 60%;
+}
+.paging a.prev{
+    background-image:url(/fileadmin/sys/img/icons/paging_left.gif);
+}
+.paging span.prev{
+    background-image:url(/fileadmin/sys/img/icons/paging_left_inactive.gif);
+}
+.paging a.next{
+    background-image:url(/fileadmin/sys/img/icons/paging_right.gif);
+}
+.paging span.next{
+    background-image:url(/fileadmin/sys/img/icons/paging_right_inactive.gif);
+}
+.tx-indexedsearch-whatis{
+    margin-bottom:15px;
+}
+/* search results */
+.search_result .teaser_content{
+    margin-left:0;
+}
+p.solr_browsebox_text,
+.tx-indexedsearch-browsebox p{
+    margin-bottom:10px;
+    font-size:1.1em; /* 12px */
+}
+/* author profil header / comments */
+.grey_box,
+.article .tab,
+.author_profil,
+.comments_wrapper{
+    background-color:#F4F4F4;
+    padding:12px 15px 15px;
+}
+* html .comments_wrapper,
+* html .article .tab{
+    height:10px; /* haslayout */
+}
+.author_profil h2{
+    font-size:1.36em;
+    margin-bottom:15px;
+}
+.author_profil .author_thumb{
+    float:left;
+    max-width:130px;
+}
+.author_profil .author_text{
+    margin-left:145px;
+}
+.author_profil .author_contact{
+    margin-top:20px;
+}
+.container .filelinks,
+.comments_wrapper p,
+.author_profil p{
+    font-size:1.1em; /* 12px */
+}
+.comments_wrapper .meta_info{
+    font-weight:bold;
+}
+.comment{
+    margin-bottom:5px;
+}
+.sliding_comment .comment_text{
+    height:1.41em;
+    overflow:hidden;
+}
+.sliding_comment .open_comment{
+    height:100em;
+}
+.slider_toggle{
+    display:block;
+    float:left;
+    height:12px;
+    width:12px;
+    overflow:hidden;
+    background:url(/fileadmin/sys/img/icons/red_plus.gif) no-repeat;
+    margin:3px 5px 0 0;
+    text-indent:-10000em;
+    cursor:pointer;
+}
+.open_comment .slider_toggle{
+    background-image:url(/fileadmin/sys/img/icons/red_minus.gif);
+}
+.container .article_header .filelinks{
+    font-size:1em;
+    margin-bottom:0;
+}
+.container .article_header .filelinks li{
+    margin-right:15px;
+    float:left;
+    margin-bottom:5px;
+}
+.container .article_header_joined .clear_filelinks{
+    margin-bottom:-5px;
+}
+
+/* tabbed content */
+.tab_nav{
+    float:left;
+    width:100%;
+    border-bottom:2px solid #f30;
+    padding-top:4px;
+}
+.tabified{
+    
+}
+.tab_nav li{
+    float:left;
+    border-right:1px solid #fff;
+}
+.tab_nav a{
+    color:#fff;
+    display:block;
+    padding:2px 6px; 
+}
+.tab_nav .current{
+    font-weight:bold;
+    margin-top:-4px;
+    position:relative; /* ie */
+    background-color:#f30;
+}
+.tab_nav .current a{
+    padding:4px 5px; 
+}
+.news_links{
+    margin-top:25px;
+}
+.article .tab_group,
+.news_links li{
+    font-size:1.1em; /* 12px */
+}
+.article .tab_group p,
+.article .tab_group ol,
+.article .tab_group ul,
+.news_links li p,
+.news_links li ol,
+.news_links li ul{
+    font-size:1em;
+}
+.news_links .article_header li{
+    font-size:1em;
+}
+.news_links h3{
+    margin-bottom:10px;
+}
+.tab{
+    margin-bottom:20px;
+}
+.article .tab .link_list li{
+    margin-bottom:5px;
+}
+.article .tab .person_item{
+    width:310px;
+    margin:0 15px 15px 0;
+    float:left;
+}
+.article .tab .person_item img{
+    float:left;
+    width:45px;
+    margin-top:3px;
+}
+.article .tab .person_item p{
+    margin-left:55px;
+}
+
+
+.tab_nav li{
+    background-color:#a69993;
+}
+.page_zeitgeschichte .tab_nav .current,
+.tab_zeitgeschichte .current,
+.article_zeitgeschichte .tab_nav .current{
+    background-color:#AB9E96;
+}
+.page_nachhaltigkeit .tab_nav .current,
+.tab_nachhaltigkeit .current,
+.article_nachhaltigkeit .tab_nav .current{
+    background-color:#528101;
+}
+.page_kapitalismus_alternativen .tab_nav .current,
+.tab_kapitalismus_alternativen .current,
+.article_kapitalismus_alternativen .tab_nav .current{
+    background-color:#528101;
+}
+.page_gesellschaftsanalyse .tab_nav .current,
+.tab_gesellschaftsanalyse .current,
+.article_gesellschaftsanalyse .tab_nav .current,
+.page_kapitalismuskritik .tab_nav .current,
+.tab_kapitalismuskritik .current,
+.article_kapitalismuskritik .tab_nav .current{
+    background-color:#dd0072;
+}
+.page_parteien .tab_nav .current,
+.tab_parteien .current,
+.article_parteien .tab_nav .current{
+    background-color:#4b66ac;
+}
+.page_kultur .tab_nav .current,
+.tab_kultur .current,
+.article_kultur .tab_nav .current{
+    background-color:#975cb2;
+}
+.page_international .tab_nav .current,
+.tab_international .current,
+.article_international .tab_nav .current{
+    background-color:#0e7c93;
+}
+.page_politisch .tab_nav .current,
+.tab_politisch .current,
+.article_politisch .tab_nav .current{
+    background-color:#aa5563;
+}
+
+.page_zeitgeschichte .tab_nav,
+.tab_zeitgeschichte .tab_nav,
+.article_zeitgeschichte .tab_nav{
+    border-bottom-color:#AB9E96;
+}
+.page_nachhaltigkeit .tab_nav,
+.tab_nachhaltigkeit .tab_nav,
+.article_nachhaltigkeit .tab_nav{
+    border-bottom-color:#528101;
+}
+.page_kapitalismus_alternativen .tab_nav,
+.tab_kapitalismus_alternativen .tab_nav,
+.article_kapitalismus_alternativen .tab_nav{
+    border-bottom-color:#528101;
+}
+.page_gesellschaftsanalyse .tab_nav,
+.tab_gesellschaftsanalyse .tab_nav,
+.article_gesellschaftsanalyse .tab_nav,
+.page_kapitalismuskritik .tab_nav,
+.tab_kapitalismuskritik .tab_nav,
+.article_kapitalismuskritik .tab_nav{
+    border-bottom-color:#dd0072;
+}
+.page_parteien .tab_nav,
+.tab_parteien .tab_nav,
+.article_parteien .tab_nav{
+    border-bottom-color:#4b66ac;
+}
+.page_kultur .tab_nav,
+.tab_kultur .tab_nav,
+.article_kultur .tab_nav{
+    border-bottom-color:#975cb2;
+}
+.page_international .tab_nav,
+.tab_international .tab_nav,
+.article_international .tab_nav{
+    border-bottom-color:#0e7c93;
+}
+.page_politisch .tab_nav,
+.tab_politisch .tab_nav,
+.article_politisch .tab_nav{
+    border-bottom-color:#aa5563;
+}
+
+.content_text ul.tab_nav{
+    margin-bottom:0;
+}
+.content_text .tab_nav li{
+    margin-bottom:0;
+    padding-left:0;
+    background-image:none;
+}
+.tab .padded_tab,
+.content_text .tab{
+    padding:12px 15px 15px;
+    background-color:#F4F4F4;
+}
+.tab .padded_tab{
+    min-height:10px;
+}
+* html .tab .padded_tab{
+    height:10px; /* haslayout */
+}
+.content_text .tab_group .clear{
+    margin-top:0;
+}
+
+/* content sliders (h2=kontakt, h4=RTE) */
+h2.slider_header{ 
+    margin-bottom:15px;
+    font-size:1.1em; /* 12px */
+}
+h2.active_slider,
+h4.active_slider{
+    padding:1px 25px 2px 15px;
+    color:#fff;
+    background:#A49791 url(/fileadmin/sys/img/icons/white_plus.gif) no-repeat 669px 50%;
+    cursor:pointer;
+    min-height:12px;
+}
+* html h2.active_slider,
+* html h4.active_slider{
+    height:12px; /* haslayout */
+}
+h2.active_slider_alt,
+h4.active_slider_alt{
+    background-color:#795e57;
+}
+#right_content h4.active_slider{
+    background-position:259px 50%;
+}
+h2.active_slider_open,
+h4.active_slider_open{
+    background-image:url(/fileadmin/sys/img/icons/white_minus.gif);
+    background-color:#f30;
+    margin-bottom:0;
+}
+.slider_body{
+    background-color:#f4f4f4;
+    margin-bottom:15px;
+    padding:15px;
+}
+.content_text .slider_body{
+    padding-bottom:1px;
+    width:655px;
+}
+* html .content_text .slider_body{
+    overflow-x:hidden;
+}
+#right_content .content_text .slider_body{
+    width:245px;
+}
+
+.slider_header_map {
+    margin-top: -20px;
+}
+.slider_body_map {
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.slider_body_map.open {
+    height: 300px;
+    -webkit-transition-property: height;
+    -moz-transition-property: height;
+    -o-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+
+.slider_body_map .tx-wecmap-map {
+    margin: 0;
+}
+
+.slider_body_contact_list{
+    padding:0;
+    background-color:transparent;
+}
+.contact_list{
+    width:100%;
+    background-color:#f4f4f4;
+    font-size:1.1em; /* 12px */
+}
+
+.contact_list th,
+.contact_list td{
+    padding:15px;
+    border-bottom:3px solid #fff;
+}
+
+.contact_list th{
+    border-right:3px solid #fff;
+    width:200px;
+}
+.tx-ablinklist-pi1 .slider_body .even,
+.search_results .even,
+.tx-indexedsearch-res .even,
+.contact_list .even{
+    background-color:#ececec;
+}
+
+.article_zeitgeschichte .active_slider{
+    background-color:#AB9E96;
+}
+.article_gesellschaftsanalyse .active_slider
+.article_kapitalismuskritik .active_slider{
+    background-color:#dd0072;
+}
+.article_nachhaltigkeit .active_slider{
+    background-color:#528101;
+}
+.article_kapitalismus_alternativen .active_slider{
+    background-color:#528101;
+}
+.article_parteien .active_slider{
+    background-color:#4b66ac;
+}
+.article_kultur .active_slider{
+    background-color:#975cb2;
+}
+.article_international .active_slider{
+    background-color:#0e7c93;
+}
+.article_politisch .active_slider{
+    background-color:#aa5563;
+}
+.article .active_slider_open{
+    background-color:#f30 !important;
+}
+.wt_directory_slider{
+    margin-top:-10px;
+}
+/* galleries */
+.image_gallery img{
+    height:70px;
+    width:70px;
+    float:left;
+}
+.inactive_gallery ul{
+    float:left;
+}
+.inactive_gallery li{
+    float:left;
+    margin:0 3px 3px 0;
+}
+.image_gallery .clear{
+    margin-bottom:-3px;
+}
+
+.jcarousel-container {
+    position: relative;
+}
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    width: 70px; /* must be explicitly set for plugin */
+    height: 70px; /* auch */
+}
+.jcarousel-prev,
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+.jcarousel-skin .jcarousel-container-horizontal {
+    width: 578px;
+    padding: 0 40px;
+    margin:0 auto;
+}
+.jcarousel-skin .jcarousel-clip-horizontal {
+    width:  581px;
+    height: 70px;
+}
+.jcarousel-skin .jcarousel-item {
+    width: 70px;
+    height: 70px;
+}
+.jcarousel-skin .jcarousel-item-horizontal {
+    margin-right: 3px;
+}
+.jcarousel-skin .jcarousel-item-placeholder {
+
+}
+.jcarousel-skin .jcarousel-next-horizontal,
+.jcarousel-skin .jcarousel-prev-horizontal{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background:url(/fileadmin/sys/img/icons/gallery_controls.gif) no-repeat;
+ }
+.jcarousel-skin .jcarousel-prev-horizontal {
+    right:auto;
+    left: 5px;
+    background-position:-20px 0;
+}
+.jcarousel-skin .jcarousel-next-disabled-horizontal{
+    cursor: default;
+    background-position:0 -20px;    
+}
+.jcarousel-skin .jcarousel-prev-disabled-horizontal{
+    cursor: default;
+    background-position:-20px -20px;
+}
+
+/* text resizer */
+.text_resizer{
+    margin-bottom:15px;
+}
+.text_resizer span{
+    float:left;
+    margin:-2px 5px 0 0;
+}
+.text_resizer .resize{
+    text-indent:-10000em;
+    background-repeat:no-repeat;
+    float:left;
+    height:12px;
+    width:12px;
+    margin-right:5px;
+}
+.text_resizer .plus{
+    background-image:url(/fileadmin/sys/img/icons/red_plus.gif);
+}
+.text_resizer .minus{
+    background-image:url(/fileadmin/sys/img/icons/red_minus.gif);
+}
+.text_resizer .disabled_plus{
+    cursor:default;
+    background-image:url(/fileadmin/sys/img/icons/grey_plus.gif);
+}
+.text_resizer .disabled_minus{
+    cursor:default;
+    background-image:url(/fileadmin/sys/img/icons/grey_minus.gif);
+}
+.font_8{
+    font-size:8px;
+}
+.font_14{
+    font-size:14px;
+}
+.font_17{
+    font-size:17px;
+}
+.font_20{
+    font-size:20px;
+}
+.font_22{
+    font-size:22px;
+}
+.font_8 .text_resizer .resize{
+    margin-top:-2px;
+}
+.font_14 .text_resizer .resize{
+    margin-top:2px;
+}
+.font_17 .text_resizer .resize{
+    margin-top:6px;
+}
+.font_20 .text_resizer .resize{
+    margin-top:8px;
+}
+.font_22 .text_resizer .resize{
+    margin-top:10px;
+}
+
+
+/* Calendar Base Event Location */
+div.tx-wecmap-map {
+    margin-top:20px;
+}
+div.cal_location_relatedevents {
+    padding-top:20px;
+}
+div.cal_location_relatedevents h3 {
+    padding-bottom:5px;
+}
+
+.news-single-video{
+    margin-bottom:15px;
+    background-color:#F4F4F4;
+    padding:15px 15px 0;
+}
+* html .news-single-video{
+    margin-bottom:30px;
+}
+* + html .news-single-video{
+    margin-bottom:30px;
+}
+.news-single-video p{
+    padding:2px 0 0 0;
+}
+.content_image .rgmediaimages-player{
+    display:block;
+    padding-top:15px;
+    /*background-color:#F4F4F4;
+    padding:15px;*/
+}
+.article_image .rgmediaimages-player{
+    display:block;
+    margin-top:15px;
+}
+ .marker h3,
+.gmnoprint .marker h3{
+    padding-right:12px;
+}
+
+a.highslide{
+    position:relative;
+    display:inline-block;
+    min-height:10px;
+}
+* html a.highslide{
+    height:10px;
+}
+.content_text a.highslide{
+    float:right;
+    display:block;
+    margin:0 0 5px 10px;
+}
+.content_text a.highslide img{
+    float:none;
+    margin:0;
+}
+a.highslide span.overlay{
+    display:block;
+    overflow:hidden;
+    height:17px;
+    width:17px;
+    background:url(/fileadmin/sys/img/icons/lupe.png) no-repeat;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+* html .caption_wrap{
+    line-height:0px;
+}
+* html .caption_wrap p{
+    line-height:1.4;
+}
+* + html .caption_wrap{
+    line-height:0px;
+}
+* + html .caption_wrap p{
+    line-height:1.4;
+}
+
+.image_col{
+    float:left;
+    width:335px;
+}
+.image_col_right{
+    float:right;
+}
+
+.tx-indexedsearch-noresults{
+    font-size:1.1em; /* 12px */
+}
+
+.tx-cal-controller #content_extra_info .grey_box{
+    font-size:1.1em; /* 12px */
+}
+.tx-srlanguagemenu-pi1{
+    float:left;
+    min-height:5px;
+}
+* html .tx-srlanguagemenu-pi1{
+    height:5px;
+}
+
+.content_text iframe {
+    margin-bottom: 15px;
+}
+
+.author_text .author_activity {
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+.author_text .author_activity + p{
+    margin:10px 0 -10px;
+}
+
+.tx-ablinklist-pi1 .col{
+    display:inline-block;
+    min-width:80px;
+    margin-right:10px;
+}
+* html .tx-ablinklist-pi1 .col{
+    width:80px;
+}
+.tx-ablinklist-pi1 .meta img{
+    display:inline-block;
+    margin-right:10px;
+}
+.tx-ablinklist-pi1 .meta a:focus,
+.tx-ablinklist-pi1 .meta a:active{
+    outline:none;   
+}
+.linklist_search_results .slider_content{
+    background-color:#f4f4f4;
+}
+.linklist_search_results .slider_content,
+.tx-ablinklist-pi1 .slider_content{
+    border-bottom:3px solid #fff;
+    padding:8px 15px 5px;
+}
+.tx-ablinklist-pi1 .slider_content p{
+    margin-bottom:0.5em;
+}
+.tx-ablinklist-pi1 .slider_body{
+    padding:0;
+}
+.tx-ablinklist-pi1 .link_image,
+.linklist_search_results .link_image{
+    float:left;
+}
+.tx-ablinklist-pi1 .link_image img,
+.linklist_search_results .link_image img{
+    display:block;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+.linklist_search_results .slider_content{
+    clear:both;
+}
+.tx-ablinklist-pi1 p.main_link,
+.linklist_search_results p.main_link{
+    font-size:1.091em;
+    margin-bottom:0.6em;
+}
+.tx_ablinklist_searchView_resultMessage{
+    padding:10px 0;
+}
+.tx-ablinklist-pi1 .content_text p{
+    clear:both;
+}
+.tx-ablinklist-pi1 .content_text img{
+    float:left;
+    margin:0 10px 10px 0;
+}
+.tx-ablinklist-pi1 .content_text p.rating img{
+    float:none;
+    margin:0;
+}
+.tx-ablinklist-pi1 .link_detail,
+.tx-ablinklist-pi1 .link_meta{
+    background-color:#f4f4f4;
+    padding:10px 15px 5px;
+}
+.tx-ablinklist-pi1 .link_detail{
+    margin-bottom:3px;
+    padding-bottom:15px;
+}
+.tx-ablinklist-pi1 .link_detail h2 a{
+    cursor:text;
+    color:#000 !important;
+}
+.tx-ablinklist-pi1 .link_detail .tx_ablinklist_listView_linkImage{
+    cursor:default;
+}
+.tx-ablinklist-pi1 .link_detail .tx_ablinklist_listView_linkImage:hover,
+.tx-ablinklist-pi1 .link_detail h2 a:hover{
+    text-decoration:none;
+}
+
+/* mediathek */
+span.mediathek_item,
+a.mediathek_item span{
+    padding-left:21px;
+    background:url(/fileadmin/sys/img/icons/mediathek.png) no-repeat;
+}
+a.mediathek_item span{
+    cursor:pointer;
+}
+span.mediathek_video,
+a.mediathek_video span{
+    background-position:0 -99px;
+}
+span.mediathek_audio,
+a.mediathek_audio span{
+    background-position:0 -200px;
+}
+
+.mediathek-list-container .teaser_text .meta_info{
+    font-weight:normal;
+}
+.mediathek-list-container .meta_info .content_type{
+    text-transform:none;
+    font-weight:bold;
+}
+.mediathek.highslide-html-content{
+    padding:0;
+}
+.mediathek_iframe .highslide-body{
+    overflow:hidden !important;
+}
+.mediathek_iframe .highslide-head{
+    height:22px;
+}
+.highslide-head .hs_close{
+    padding-right:15px;
+    display:inline-block;
+    background:url(/fileadmin/sys/img/icons/close.gif) no-repeat 100% 2px;
+}
+.article_images + .article_images{
+    clear:right;
+}
+.mediathek_teaser .article_image{
+    float:none;
+    position:relative;
+}
+.mediathek_teaser a span{
+    cursor:pointer;
+}
+.mediathek_teaser .show_all{
+    margin-top:0;
+    display:inline-block;
+}
+.mediathek_teaser img{
+    max-width:300px;
+    height:auto !important;
+}
+.show_all_wrap{
+    display:block;
+    min-height:10px;
+    text-align:right;
+    position:absolute;
+    max-width:300px;
+    bottom:0;
+    right:0;
+}
+
+body.mediathek_iframe{
+    overflow:hidden;    
+}
+.mediathek_iframe .highslide-head .hs_close{
+    position:absolute;
+    top:9px;
+    right:15px;
+    height:15px;
+    display:block;
+}
+.article .wrapper_mediathek{
+    margin-top:15px;
+}
+.wrapper_mediathek h2.section_header{
+    margin-bottom:10px;
+}
+
+.wrapper_mediathek .back_link{
+    margin-top:0;
+    margin-bottom:3px;
+    position:static;
+}
+.mediathek_all .container{
+    margin-bottom:0;
+}
+.mediathek_all .container > h2{
+    margin-bottom:7px !important;
+}
+.wrapper_mediathek h3{
+    margin-bottom:10px;
+    padding-top:7px;
+}
+.wrapper_mediathek .teaser h3{
+    padding-top:0;
+}
+.wrapper_mediathek p{
+    margin-bottom:10px;
+}
+.wrapper_mediathek .teaser_content p{
+    margin-bottom:0;
+}
+.wrapper_mediathek .additional{
+    padding-top:7px;
+}
+.mediathek_iframe #wrapper_content{
+    padding:0 25px;
+    max-width:685px;
+}
+.mediathek_inpage #wrapper_content{
+    width:685px;
+    max-width:685px;
+    padding:0;
+}
+.mediathek_iframe #main_content{
+    padding-bottom:17px;
+}
+.mediathek_inpage #main_content{
+    width:100%;
+}
+.media_content{
+    background-color:#F4F4F4;
+    margin-bottom:5px;
+    text-align:center;
+}
+.wrapper_mediathek .media_description{
+    padding:10px 15px 12px;
+    font-size:1.091em;
+    margin-bottom:0;
+    text-align:left;
+}
+.wrapper_mediathek .social p{
+    float:left;
+    width:115px;
+    padding:2px 10px 0 0;
+}
+.wrapper_mediathek .additional .share_links li{
+    margin:0 0 0 7px;
+}
+.wrapper_mediathek .additional .share_links li:first-child{
+    margin-left:0;
+}
+.wrapper_mediathek .media_content img{
+    max-width:100%;
+    height:auto !important;
+    margin:0 auto;
+    padding-top:15px;
+    display:block;
+}
+.wrapper_mediathek .img_paging{
+    float:right;
+    height:20px;
+}
+.wrapper_mediathek .count{
+    display:inline-block;
+    vertical-align:middle;
+    font-weight:bold;
+}
+.wrapper_mediathek .img_paging a.disabled{
+    opacity:0.5;
+    filter:alpha(opacity:50);
+}
+.wrapper_mediathek .prev,
+.wrapper_mediathek .next{
+    display:inline-block;
+    height:20px;
+    width:20px;
+    margin:0 10px 0 0;
+    vertical-align:middle;
+    background:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_rot.gif) no-repeat;
+}
+.wrapper_mediathek .next{
+    margin:0 0 0 10px;
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_rot.gif);
+}
+
+.mediathek_nachhaltigkeit .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_nachhaltigkeit.gif);
+}
+.mediathek_nachhaltigkeit .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_nachhaltigkeit.gif);
+}
+.mediathek_kapitalismus_alternativen .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_kapitalismus_alternativen.gif);
+}
+.mediathek_kapitalismus_alternativen .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_kapitalismus_alternativen.gif);
+}
+.mediathek_zeitgeschichte .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_zeitgeschichte.gif);
+}
+.mediathek_zeitgeschichte .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_zeitgeschichte.gif);
+}
+.mediathek_parteien .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_parteien.gif);
+}
+.mediathek_parteien .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_parteien.gif);
+}
+.mediathek_kultur .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_kultur.gif);
+}
+.mediathek_kultur .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_kultur.gif);
+}
+.mediathek_international .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_internationale.gif);
+}
+.mediathek_international .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_internationale.gif);
+}
+.mediathek_politisch .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_politische.gif);
+}
+.mediathek_politisch .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_politische.gif);
+}
+.mediathek_gesellschaftsanalyse .prev,
+.mediathek_kapitalismuskritik .prev{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_links_kapitalismuskritik.gif);
+}
+.mediathek_gesellschaftsanalyse .next,
+.mediathek_kapitalismuskritik .next{
+    background-image:url(/fileadmin/sys/js/lib/highslide/graphics/rls/pfeil_klein_rechts_kapitalismuskritik.gif);
+}
+.wrapper_mediathek .img_paging + h3{
+    width:470px;
+}
+body.js .wrapper_mediathek .media_content img{
+    display:none;
+}
+body.js .wrapper_mediathek .media_content img:first-child{
+    display:block;
+}
+
+.related_content {
+    padding-top: 10px;
+}
+
+.related_content .teaser_text{
+    margin-bottom:0;
+    padding:0 0 10px;
+    background:none;
+}
+.wrapper_mediathek .teaser_text{
+    padding-bottom:10px;
+}
+.content_mediathek_meta {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+.related_content h3{
+    margin-bottom:0;
+    font-size:1.091em;
+}
+
+.related_content .thumb_link,
+.mediathek_top_block .thumb_link{
+    float:left;
+    position:relative;
+    margin-top:3px;
+    width:90px;
+    overflow:hidden;
+}
+.related_content .thumb_link span,
+.mediathek_top_block .thumb_link span{
+    position:absolute;
+    height:20px;
+    width:20px;
+    bottom:0;
+    right:0;
+    cursor:pointer;
+    background:#f30 url(/fileadmin/sys/img/icons/mediathek_white.png) no-repeat 3px 3px;
+}
+.content_mediathek_meta span {
+    position:absolute;
+    height:20px;
+    width:20px;
+    left: -2px;
+    top: -2px;
+    background: transparent url(/fileadmin/sys/img/icons/mediathek.png) no-repeat 3px 3px;
+}
+.teaser_single .related_content .thumb_link span{
+    display:none;
+}
+
+.related_content .video_link span,
+.mediathek_top_block .video_icon span{
+    background-position:3px -96px;
+}
+.related_content .audio_link span,
+.mediathek_top_block .audio_icon span{
+    background-position:3px -196px;
+}
+
+.mediathek_inpage #meta_footer{
+    background-image:url(/fileadmin/sys/img/backgrounds/footer_bottom_wide.gif);
+    background-position:0 100%;
+}
+.mediathek_inpage .container{
+    float:left;
+    margin-bottom:25px;
+    width:100%;
+    min-height:10px;
+}
+.mediathek-list-container p.description{
+    margin-bottom:10px;
+}
+.mediathek-list-container .teaser_single > .meta_info{
+    margin-left:105px;
+}
+.mediathek-list-container .teaser_single .related_content .thumb_link{
+    margin-top:-1.5em;
+}
+.mediathek-list-container .teaser_single .mediathek_item{
+    color:#000;
+    font-weight:bold;
+    display:inline-block;
+    margin-top:8px;
+}
+.loading,
+.loading a{
+    cursor:wait;
+}
+.mediathek_top_header .teaser_text {    
+    width:655px;
+    margin-bottom:0;
+}
+.mediathek_top_header .teaser_content {
+    margin-left: 0;
+}
+.mediathek-list-container h3{
+    font-weight: normal;
+}
+.mediathek-list-container h3 a,
+.mediathek-list-container h3 span{
+    font-weight: bold;
+}
+.mediathek-list-container .no_image{
+    margin-left: 0;
+}
+.content_mediathek_meta a {
+    color: #333;
+}
+.mediacenter-list .thumb_link img {
+    margin-top: 0;
+}
+h3.mediathek-header {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.mediathek-layer-header {
+    position: relative;
+    color: #888;
+    margin-top: 5px;
+}
+.mediathek-layer-header .meta_info {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    z-index: 10;
+}
+
+/**/
+#search_filters{
+    margin:15px 0 -10px;
+}
+.slider_control{
+    display:inline-block;
+}
+.slider_control + #search_filters{
+    margin-top:10px;
+}
+.sitesearch_right{
+    float:right;
+    width:315px;
+}
+.sitesearch_left{
+    margin-right:335px;
+}
+.main_search .slider_control{
+    padding-left:10px;
+    background:url(/fileadmin/sys/img/icons/search_slider.png) no-repeat 0 5px;
+}
+.main_search .slider_control:active,
+.main_search .slider_control:focus{
+    outline:0;
+}
+.main_search .slider_control.opened{
+    background-position:0 -93px;
+}
+.sitesearch .multi .multi {
+    margin-bottom:0;
+}
+.container .news_links .link_list li,
+.container .article_header .download_list li,
+.container .article_header .filelinks li{
+    float:none;
+    margin-bottom:13px;
+}
+.container .news_links .link_list a.download_pdf,
+.article_header .download_list a.download_pdf,
+.article_header .filelinks a.pdf{
+    background-image:none;
+    padding-left:0;
+}
+
+.container .news_links .link_list a.download_pdf span.thumb,
+.article_header .download_list a.download_pdf span.thumb,
+.article_header .filelinks a.pdf span.thumb{
+    display:inline-block;
+    position:relative;
+    margin:0 15px 0 0;
+    vertical-align:top;
+}
+.container .news_links .link_list a.download_pdf span.thumb span,
+.article_header .download_list a.download_pdf span.thumb span,
+.article_header .filelinks a.pdf span.thumb span{
+    display:block;
+    position:absolute;
+    height:16px;
+    width:16px;
+    right:0;
+    bottom:0;
+    z-index:10;
+    background:url(/fileadmin/sys/img/icons/pdf.gif) no-repeat;
+}
+.container .news_links .link_list a.download_pdf span.thumb img,
+.article_header .content_text .download_list a.download_pdf span.thumb img,
+.article_header .content_text .filelinks a.pdf span.thumb img{
+    display:inline-block;
+    float:none;
+    margin:0;
+}
+
+#main_navigation{
+    margin:0 5px 0 8px;
+    font-size:1.1em;
+}
+#wrapper_navigation a{
+    color:#fff;
+}
+#main_navigation li{
+    float:left;
+    padding:3px 0 5px;
+    margin-top:1px;
+}
+#main_navigation li.last a{
+    border-right:0;
+}
+#main_navigation li a{
+    display:block;
+    padding:0 6px 1px;
+    border-right:1px solid #fff;
+}
+#main_navigation li.first a{
+    padding-left:7px;
+}
+.home #main_navigation li.first,
+#main_navigation li.current{
+    background-color:#fff;
+    margin-left:-1px;
+    padding-left:1px;
+}
+.home #main_navigation li.first a,
+#main_navigation li.current a{
+    color:#f30;
+    font-weight:bold;
+}
+
+#sub_navigation{
+    background-color:#fff;
+    width:961px;
+    margin-left:-8px;
+    padding:0 10px 0 17px;
+    font-size:1.1em; /* 12px */
+    min-height:26px;
+}
+* html #sub_navigation{
+    height:26px;
+}
+#sub_navigation li{
+    float:left;
+    padding-top:8px;
+}
+#sub_navigation li a{
+    color:#f30;
+    display:block;
+    padding:0 6px 1px;
+    border-right:1px solid #f30;
+}
+#sub_navigation li.last a{
+    border-right:0;
+}
+#sub_navigation li.current a{
+    font-weight:bold;
+}
+/* meta_header */
+#meta_header ul{
+    float:left;
+    font-size:0.91em;
+}
+#meta_header li{
+    float:left;
+}
+#meta_header a{
+    color:#000;
+    display:block;
+    padding:1px 6px 2px;
+}
+#meta_header .languages{
+    margin-right:3px;
+}
+#meta_header .languages .current a,
+#meta_header .languages a.current{
+    color:#fff;
+    background-color:#f30;
+}
+#meta_header .misc li{
+    border-right:1px solid #000;
+}
+#meta_header .misc li.last{
+    border-right:0;
+}
+#meta_header .externals{
+    margin-left:9px;
+}
+#meta_header .externals li.last{
+    margin-left:5px;
+}
+#meta_header .externals a{
+    text-indent:-10000em;
+    height:16px;
+    width:16px;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    padding:0;
+}
+#meta_header .externals .facebook_link{
+    background-image:url(/fileadmin/sys/img/icons/facebook_logo_small.gif);
+}
+#meta_header .externals .youtube_link{
+    background-image:url(/fileadmin/sys/img/icons/youtube_logo_small.gif);
+}
+#meta_header .externals .socialmedia_link {
+    background-image:url(/fileadmin/sys/img/icons/rls_socialmedia.png);
+    width:50px;
+    height:19px;
+}
+
+
+/* theme navigation */
+#theme_navigation li{
+    border-bottom:1px solid #fff;
+}
+#theme_navigation li a{
+    display:block;
+    text-indent:-10000em;
+    overflow:hidden;
+    height:25px;
+    background-repeat:no-repeat;
+}
+#theme_navigation li li a{
+    text-indent:0;
+    height:auto;
+    text-transform:uppercase;
+    color:#fff;
+    padding:5px 10px 5px 15px;
+    width:250px; /* haslayout */
+    background-image:none !important;
+}
+#theme_navigation .nav_zeitgeschichte a{
+    background-image:url(/fileadmin/sys/img/navigation/zeitgeschichte.gif);
+}
+#theme_navigation .nav_geschichte a{
+    background-image:url(/fileadmin/sys/img/navigation/geschichte.gif);
+}
+#theme_navigation .nav_nachhaltigkeit a{
+    background-image:url(/fileadmin/sys/img/navigation/nachhaltigkeit.gif);
+}
+#theme_navigation .nav_kapitalismus_alternativen a{
+    background-image:url(/fileadmin/sys/img/navigation/kapitalismus_alternativen.gif);
+}
+#theme_navigation .nav_kapitalismuskritik a{
+    background-image:url(/fileadmin/sys/img/navigation/kapitalismuskritik.gif);
+}
+#theme_navigation .nav_gesellschaftsanalyse a{
+    background-image:url(/fileadmin/sys/img/navigation/gesellschaftsanalyse.gif);
+}
+#theme_navigation .nav_gesellschaft a{
+    background-image:url(/fileadmin/sys/img/navigation/gesellschaft.gif);
+}
+#theme_navigation .nav_parteien a{
+    background-image:url(/fileadmin/sys/img/navigation/parteien_und_demokratie.gif);
+}
+#theme_navigation .nav_staat_demokratie a{
+    background-image:url(/fileadmin/sys/img/navigation/staat_demokratie.gif);
+}
+#theme_navigation .nav_kultur a{
+    background-image:url(/fileadmin/sys/img/navigation/kultur_und_medien.gif);
+}
+#theme_navigation .nav_kultur_medien a{
+    background-image:url(/fileadmin/sys/img/navigation/kultur_medien.gif);
+}
+#theme_navigation .nav_internationale a{
+    background-image:url(/fileadmin/sys/img/navigation/internationale_politik.gif);
+}
+#theme_navigation .nav_politische a{
+    background-image:url(/fileadmin/sys/img/navigation/politische_bildung.gif);
+}
+#theme_navigation .nav_zeitgeschichte_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/zeitgeschichte_cur.gif);
+}
+#theme_navigation .nav_geschichte_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/geschichte_cur.gif);
+}
+#theme_navigation .nav_nachhaltigkeit_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/nachhaltigkeit_cur.gif);
+}
+#theme_navigation .nav_kapitalismus_alternativen_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/kapitalismus_alternativen_cur.gif);
+}
+#theme_navigation .nav_kapitalismuskritik_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/kapitalismuskritik_cur.gif);
+}
+#theme_navigation .nav_gesellschaftsanalyse_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/gesellschaftsanalyse_cur.gif);
+}
+#theme_navigation .nav_gesellschaft_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/gesellschaft_cur.gif);
+}
+#theme_navigation .nav_parteien_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/parteien_und_demokratie_cur.gif);
+}
+#theme_navigation .nav_staat_demokratie_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/staat_demokratie_cur.gif);
+}
+#theme_navigation .nav_kultur_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/kultur_und_medien_cur.gif);
+}
+#theme_navigation .nav_kultur_medien_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/kultur_medien_cur.gif);
+}
+#theme_navigation .nav_internationale_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/internationale_politik_cur.gif);
+}
+#theme_navigation .nav_politische_curr a{
+    background-image:url(/fileadmin/sys/img/navigation/politische_bildung_cur.gif);
+}
+
+#theme_navigation .nav_zeitgeschichte_curr,
+#theme_navigation .nav_geschichte_curr,
+#theme_navigation .nav_zeitgeschichte .current,
+#theme_navigation .nav_geschichte .current{
+    background-color:#AB9E96;
+}
+#theme_navigation .nav_nachhaltigkeit_curr,
+#theme_navigation .nav_nachhaltigkeit .current{
+    background-color:#528101;
+}
+#theme_navigation .nav_kapitalismus_alternativen_curr,
+#theme_navigation .nav_kapitalismus_alternativen .current{
+    background-color:#528101;
+}
+#theme_navigation .nav_gesellschaftsanalyse_curr,
+#theme_navigation .nav_gesellschaftsanalyse .current,
+#theme_navigation .nav_kapitalismuskritik_curr,
+#theme_navigation .nav_kapitalismuskritik .current
+#theme_navigation .nav_gesellschaft_curr,
+#theme_navigation .nav_gesellschaft .current{
+    background-color:#dd0072;
+}
+#theme_navigation .nav_parteien_curr,
+#theme_navigation .nav_parteien .current{
+    background-color:#4b66ac;
+}
+#theme_navigation .nav_kultur_curr,
+#theme_navigation .nav_kultur .current,
+#theme_navigation .nav_kultur_medien_curr,
+#theme_navigation .nav_kultur_medien .current{
+    background-color:#975cb2;
+}
+#theme_navigation .nav_internationale_curr,
+#theme_navigation .nav_internationale .current{
+    background-color:#0e7c93;
+}
+#theme_navigation .nav_politische_curr,
+#theme_navigation .nav_politische .current{
+    background-color:#aa5563;
+}
+
+
+#theme_navigation li li{
+    background-color:#a8abb0;
+    border-bottom:0;
+    border-top:1px solid #fff;
+}
+
+/* subsub nav */
+#subsub_navigation{
+    font-size:1.1em; /* 12px */
+}
+#subsub_navigation li{
+    border-bottom:1px solid #fff;
+}
+#subsub_navigation li li{
+    border-bottom:0;
+    border-top:1px solid #fff;
+}
+#subsub_navigation a{
+    color:#fff;
+    display:block;
+    padding:4px 20px 4px 22px;
+    background:#f30 no-repeat 5px 50%;
+    min-height:10px; /* haslayout */
+}
+* html #subsub_navigation a{
+    padding-top:3px;
+    padding-bottom:5px;
+    height:10px; /* haslayout */
+}
+* + html #subsub_navigation a{
+    padding-top:3px;
+    padding-bottom:5px;
+}
+#subsub_navigation li li a{
+    background-color:#A8ABB0;
+    padding-left:35px;
+}
+#subsub_navigation li.current a{
+    background-image:url(/fileadmin/sys/img/icons/white_rectangle.gif);
+}
+#subsub_navigation .current li a{
+    background-image:none;
+}
+#subsub_navigation .current li.current a{
+    background-image:url(/fileadmin/sys/img/icons/white_rectangle.gif);
+    background-position:18px 50%;
+}
+
+
+/* breadcrumb */
+#breadcrumb{
+    background-color:#f4f4f4;
+    padding:1px 10px 2px 15px;
+    margin-bottom:20px;
+}
+#breadcrumb span{
+    /*font-weight:bold;*/
+    text-transform:uppercase;
+    float:left;
+}
+#breadcrumb ol{
+    /*float:left;*/
+    margin-top:1px;
+    list-style:none outside none;
+}
+#breadcrumb li{
+    float:left;
+    font-size:0.91em;
+    padding-left:10px;
+    margin-right:7px;
+    background:url(/fileadmin/sys/img/icons/breadcrumb_arrow.gif) no-repeat 0 60%;
+    white-space:nowrap;
+}
+#breadcrumb li.first{
+    background:none;
+    padding-left:0;
+}
+#breadcrumb a{
+    color:#000;
+    float:left; /* ie6 */
+}
+#breadcrumb a.back{
+    padding-left:10px;
+    background:url(/fileadmin/sys/img/icons/orange_arrow_left.gif) no-repeat 0 60%;
+    margin-right:20px;
+}
+#breadcrumb li.last a{
+    cursor:text;
+}
+#breadcrumb li.last a:hover{
+    text-decoration:none;
+}
+
+
+/* rosalux link in regional/foreign headers */
+.rls_link{
+    float:right;
+    font-size:1.1em;
+    margin:4px 10px 0 5px;
+    padding-left:16px;
+    background:url(/fileadmin/sys/img/icons/white_arrows.gif) no-repeat 0 65%;
+}
+

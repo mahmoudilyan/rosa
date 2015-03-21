@@ -1,0 +1,291 @@
+/* line 7, ../scss/main.scss */
+body, html,
+button,
+input,
+select,
+textarea {
+  font-family: verdana, arial, sans-serif;
+  color: #000;
+  margin: 0;
+  font-size: 13px;
+  line-height: 19px;
+  background-color: #fff;
+}
+
+/* line 25, ../scss/main.scss */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 29, ../scss/main.scss */
+.container {
+  width: 970px;
+}
+
+/* line 35, ../scss/main.scss */
+.logo-container {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+/* line 39, ../scss/main.scss */
+.logo-container .lang-links {
+  list-style-type: none;
+  margin-top: 5px;
+  margin: 0;
+  padding: 0;
+}
+/* line 46, ../scss/main.scss */
+.logo-container .lang-links li {
+  float: left;
+}
+/* line 49, ../scss/main.scss */
+.logo-container .lang-links li a {
+  color: #000;
+  font-size: 10px;
+  padding: 2px 6px;
+  margin-right: 5px;
+}
+/* line 54, ../scss/main.scss */
+.logo-container .lang-links li a:hover {
+  text-decoration: underline;
+}
+/* line 58, ../scss/main.scss */
+.logo-container .lang-links li a.active {
+  background: #ff3300;
+  color: #fff;
+}
+/* line 62, ../scss/main.scss */
+.logo-container .lang-links li a.active:hover {
+  text-decoration: none;
+}
+
+/* line 71, ../scss/main.scss */
+.nav-container {
+  background-color: #ff3300;
+  padding-top: 63px;
+  margin-bottom: 15px;
+  height: 88px;
+}
+/* line 77, ../scss/main.scss */
+.nav-container .menu {
+  padding: 0;
+  margin-left: 10px;
+  margin-bottom: 0;
+  position: relative;
+}
+/* line 84, ../scss/main.scss */
+.nav-container .menu > li {
+  float: left;
+  list-style-type: none;
+}
+/* line 90, ../scss/main.scss */
+.nav-container .menu > li > a {
+  color: #fff;
+  color: #fff;
+  height: 25px;
+  line-height: 25px;
+  padding-right: 10px;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 12px;
+  border-left: 1px solid #fff;
+}
+/* line 111, ../scss/main.scss */
+.nav-container .menu > li .sub-menu {
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 940px;
+  list-style-type: none;
+  padding: 0;
+  display: none;
+}
+/* line 120, ../scss/main.scss */
+.nav-container .menu > li .sub-menu > li {
+  float: left;
+}
+/* line 123, ../scss/main.scss */
+.nav-container .menu > li .sub-menu > li > a {
+  color: #ff3300;
+  padding: 0 15px;
+}
+/* line 130, ../scss/main.scss */
+.nav-container .menu > li .sub-menu.active {
+  display: block;
+}
+/* line 135, ../scss/main.scss */
+.nav-container .menu > li.current_page_item a {
+  background-color: #fff;
+  color: #ff3300;
+  font-weight: bold;
+  text-decoration: none;
+  border-left: 0;
+}
+/* line 143, ../scss/main.scss */
+.nav-container .menu > li.current_page_item a + a {
+  border-left: 0;
+}
+/* line 148, ../scss/main.scss */
+.nav-container .menu > li:first-child a {
+  border: 0;
+}
+
+/* line 155, ../scss/main.scss */
+#content {
+  margin-top: 20px;
+}
+
+/* line 159, ../scss/main.scss */
+.alignright {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 165, ../scss/main.scss */
+.alignleft {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 171, ../scss/main.scss */
+.home-page-article {
+  margin-top: 40px;
+}
+
+/* line 1, ../scss/_inputs.scss */
+input[type], textarea {
+  height: 30px;
+  font-size: 11px;
+}
+
+/* line 6, ../scss/_inputs.scss */
+.searchSubmit {
+  background: #ff3300;
+  color: #fff;
+  border: 0;
+}
+
+/* line 3, ../scss/_slider.scss */
+#main-slider .slider-item {
+  position: relative;
+}
+/* line 5, ../scss/_slider.scss */
+#main-slider .slider-item img {
+  width: 100%;
+  height: auto;
+}
+/* line 11, ../scss/_slider.scss */
+#main-slider .slider-item .inner-post {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.75);
+  bottom: 0px;
+  padding: 10px;
+}
+/* line 17, ../scss/_slider.scss */
+#main-slider .slider-item .inner-post h3 {
+  margin: 0;
+  margin-bottom: 12px;
+}
+/* line 20, ../scss/_slider.scss */
+#main-slider .slider-item .inner-post h3 a {
+  color: #4c4c4c;
+}
+/* line 29, ../scss/_slider.scss */
+#main-slider .slider-item .inner-post a {
+  color: #ff3300;
+}
+/* line 35, ../scss/_slider.scss */
+#main-slider .owl-pagination {
+  position: absolute;
+  width: 20%;
+  top: 12px;
+  right: 12px;
+  text-align: right;
+}
+
+/* line 192, ../scss/main.scss */
+.widget h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff3300;
+  font-weight: bold;
+}
+/* line 199, ../scss/main.scss */
+.widget h3:before {
+  content: ' ';
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: #ff3300;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+/* line 211, ../scss/main.scss */
+.widget ul {
+  font-size: 11px;
+  list-style-type: none;
+  padding-left: 27px;
+}
+/* line 216, ../scss/main.scss */
+.widget ul li {
+  margin-bottom: 10px;
+}
+/* line 220, ../scss/main.scss */
+.widget ul span {
+  display: block;
+  color: #ff3300;
+  font-size: 10px;
+}
+
+/* line 232, ../scss/main.scss */
+.article img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 6, ../scss/_publications.scss */
+.publication_fade .publication_single img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e8e8e8;
+}
+/* line 15, ../scss/_publications.scss */
+.publication_fade .owl-pagination {
+  position: absolute;
+  width: 100%;
+  bottom: 45px;
+}
+
+/* line 1, ../scss/_footer.scss */
+footer#main-footer {
+  background-color: #ff3300;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-top: 40px;
+}
+/* line 7, ../scss/_footer.scss */
+footer#main-footer p, footer#main-footer a {
+  color: #fff;
+}
+/* line 11, ../scss/_footer.scss */
+footer#main-footer .widget h3 {
+  color: #fff;
+}
+/* line 14, ../scss/_footer.scss */
+footer#main-footer .widget h3:before {
+  background-color: #fff;
+}
+/* line 19, ../scss/_footer.scss */
+footer#main-footer p.copyright {
+  margin-top: 5px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+/* line 24, ../scss/_footer.scss */
+footer#main-footer p.copyright .social-links {
+  float: right;
+  margin-top: -96px;
+}

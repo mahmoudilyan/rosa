@@ -1,0 +1,19 @@
+{
+  "name": "rosa",
+  "version": "0.0.0",
+  "authors": [
+    "Mahmoud Ilyan <mahmoudib@live.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "owlCarousel": "https://github.com/OwlFonk/OwlCarousel.git"
+  }
+}

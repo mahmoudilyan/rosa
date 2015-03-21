@@ -1,0 +1,30 @@
+footer#main-footer{
+	background-color: $primaryColor;
+	padding: 20px;
+	padding-bottom: 0;
+	margin-top: 40px;
+
+	p,a{
+		color: #fff;
+	}
+
+	.widget h3{
+		color: #fff;
+
+		&:before{
+			background-color: #fff;
+		}
+	}
+
+	p.copyright{
+		margin-top: 5px;
+		padding-top: 8px;
+		border-top: 1px solid rgba(255,255,255,0.6);
+
+		.social-links{
+			float: right;
+			margin-top: -96px;
+		}
+	}
+}
+

@@ -1,0 +1,43 @@
+#main-slider{
+	
+	.slider-item{
+		position: relative;
+		img{
+			width: 100%;
+			height: auto;
+
+		}
+
+		.inner-post{
+			position: absolute;
+			background: rgba(255,255,255,0.75);
+			bottom: 0px;
+			padding: 10px;			
+
+			h3{
+				margin: 0;
+				margin-bottom: 12px;
+				a{
+					color: #4c4c4c;
+
+					&:hover{
+						
+					}
+				}
+			}
+
+			a{
+				color: $primaryColor;
+			}
+		}
+	}
+
+	.owl-pagination{
+		position: absolute;
+		width: 20%;
+		top: 12px;
+		right: 12px;
+		text-align: right;
+	}
+
+}

@@ -1,0 +1,32 @@
+<!-- Footer -->
+<footer id="main-footer">
+    <div class="row">
+    	
+    	<div class="col-md-6">
+    		<?php dynamic_sidebar('Home page footer 1') ;?>
+    	</div>
+    	<div class="col-md-6">
+    		<?php dynamic_sidebar('Home page footer 2') ;?>
+    	</div>
+
+    	<div class="cleafix"></div>
+
+    	<div class="col-md-12">
+    		<p class="copyright">All Right Reserved © Rosa Luxemburg Stiftung 2015
+    			<span class="social-links">
+    				<a href="#"><img src="<?php bloginfo('template_url') ;?>/img/facebook.png" alt=""></a>
+    				<a href="#"><img src="<?php bloginfo('template_url') ;?>/img/youtube.png" alt=""></a>
+    			</span>
+    		</p>
+    	</div>
+    </div>
+</footer>
+<?php wp_footer(); ?>
+</div>
+
+<script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/owlCarousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
+</body>
+</html>
