@@ -316,7 +316,13 @@ input[type], textarea {
 }
 
 /* line 309, ../scss/main.scss */
-.article img {
+.article h4 {
+  color: #ff3300;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* line 315, ../scss/main.scss */
+.article > img {
   width: 100%;
   height: auto;
 }

@@ -26,6 +26,7 @@ get_header() ;
                 <?php endwhile; ?>
                 <?php endif ;?>
             </div>
+
         </div>
 
         <div class="col-md-3">
@@ -38,6 +39,6 @@ get_header() ;
 
     </div>
 
+</div>
 
-    
 <?php get_footer() ; ?>
