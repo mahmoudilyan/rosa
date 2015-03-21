@@ -35,19 +35,19 @@ class Infographics {
      */
     public function add_infographics_post_type(){
         $labels = array(
-            'name' => __('Fridays Fact','fespal'),
-            'singular_name' => __('Fridays Fact','fespal'),
+            'name' => __('Infographic','fespal'),
+            'singular_name' => __('Infographic','fespal'),
             'add_new' => __('Add new','fespal'),
-            'add_new_item' => __('Add New Friday Fact','fespal'),
-            'edit_item' => __('Edit Friday Fact','fespal'),
-            'new_item' => __('New Friday Fact','fespal'),
-            'all_items' => __('All Friday Facts','fespal'),
-            'view_item' => __('View Friday Fact','fespal'),
-            'search_items' => __('Search Friday Facts','fespal'),
-            'not_found' => __('No Friday Facts found','fespal'),
-            'not_found_in_trash' => __('No Friday Facts found in Trash','fespal'),
+            'add_new_item' => __('Add New Infographic','fespal'),
+            'edit_item' => __('Edit Infographic Fact','fespal'),
+            'new_item' => __('New Infographic Fact','fespal'),
+            'all_items' => __('All Infographic','fespal'),
+            'view_item' => __('View Infographic','fespal'),
+            'search_items' => __('Search Infographic','fespal'),
+            'not_found' => __('No Infographic found','fespal'),
+            'not_found_in_trash' => __('No Infographic found in Trash','fespal'),
             'parent_item_colon' => '',
-            'menu_name' => __('Friday\'s Fact','fespal')
+            'menu_name' => __('Infographics','fespal')
         );
 
         $args = array(
