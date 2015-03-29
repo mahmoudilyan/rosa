@@ -12,6 +12,7 @@ body{
   line-height: 19px;
   background-color: #fff;
   //@include antialiased-font();
+  padding: 0px;
 }
   
 html,
@@ -19,9 +20,12 @@ button,
 input,
 select,
 textarea {
-  @extend body;
+  //@extend body;
+ // background: #fff;
 }
-
+body{
+  background: url(../img/bg.jpg) center top;  
+}
 a{	
 	color: #000000;
     text-decoration: none;
@@ -30,6 +34,10 @@ a{
 	width: 970px;
 }
 
+#wrapper{
+	background: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.15);	
+}
 .highlight{
 	color: $primaryColor;
 
@@ -55,6 +63,7 @@ span.position{
 .logo-container{
 	padding-top: 20px;
 	padding-bottom: 5px;
+	background: #fff;
 
 	.lang-links{
 
@@ -178,6 +187,7 @@ span.position{
 
 #content{
 	margin-top: 20px;
+	background: #fff;
 }
 
 .alignright{
