@@ -44,7 +44,7 @@
                     <h5><a href="<?php echo $link ;?>"><?php the_title() ;?></a></h5>
 
                     <?php if ($organizations) :?>
-                        <h6>Organization: <span class="highlight"><?php echo $organizations[11]->name ;?></span></h6>
+                        <h6>Organization: <span class="highlight"><?php echo reset($organizations)->name ;?></span></h6>
                     <?php endif ;?>
 
                     <a href="<?php the_permalink() ;?>"><?php _e('More','fespal') ;?></a>

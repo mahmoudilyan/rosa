@@ -32,7 +32,7 @@ get_header() ;?>
                     <span class="date"><?php echo $date ;?></span>
                     <?php if($organization) : ?>
 
-                        <span class="organization"><?php _e('Organization/Author: ', 'rosa'); echo '<span class="author">'. $organization[11]->name .'</span>' ;?></span>
+                        <span class="organization"><?php _e('Organization/Author: ', 'rosa'); echo '<span class="author">'. reset($organization)->name .'</span>' ;?></span>
 
                     <?php endif ;?>
                     <span class="type"><?php echo $type ;?></span>
