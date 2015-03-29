@@ -30,7 +30,7 @@ $('document').ready(function (){
       } else {
         $dropdown.addClass("active");
       }
-			return false;
+			//return false;
 		}
 
 	});
