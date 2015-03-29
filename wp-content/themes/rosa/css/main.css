@@ -230,7 +230,7 @@ input[type], textarea {
 /* line 35, ../scss/_slider.scss */
 #main-slider .owl-pagination {
   position: absolute;
-  width: 20%;
+  width: 100%;
   top: 12px;
   right: 12px;
   text-align: right;

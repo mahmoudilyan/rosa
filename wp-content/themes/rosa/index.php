@@ -30,7 +30,7 @@
                                 $last_update = get_the_time('d-m-Y');
                             }
                             ?>
-                            <div class="inner-post">
+                            <div class="inner-post hidden">
                                 <h3><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h3>
                                 <?php the_excerpt() ;?>
                             </div>

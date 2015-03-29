@@ -14,6 +14,7 @@
     include_once 'inc/staff.php';
     include_once 'inc/fow_jordan.php';
     include_once 'inc/fow_palestine.php';
+    include_once 'inc/event.php';
 
     // Category For Home Page
     $home_page_category = get_cat_ID('home');
@@ -176,6 +177,8 @@
                 </li>
                 <?php
             }
+
+            echo '<li><a href="#">عربي</a></li>';
             echo '</ul>';
         }
     }    
