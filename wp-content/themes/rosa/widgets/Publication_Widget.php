@@ -106,7 +106,7 @@ class Publication_Widget extends WP_Widget {
             ?>
             
             <div class="publication_single">
-                <a href="<?php echo get_permalink($publication->ID);?>"><?php echo get_the_post_thumbnail($publication->ID, 'publication'); ?></a>
+                <a href="<?php echo get_post_meta($publication->ID,'publication_link',true);?>"><?php echo get_the_post_thumbnail($publication->ID, 'publication'); ?></a>
             
 
             </div>
