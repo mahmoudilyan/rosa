@@ -11,7 +11,7 @@
     ?>
     <div class="publication-container row">
         <?php foreach ($years as $years) : 
-            echo "<div class='col-md-12'><h4 class='highlight'><a class='highligt' href='".get_term_link($years)."'>".strtoupper($years->name) ."</a></h4></div>";
+            echo "<div class='col-md-12'><h4 class='highlight year-name'><a class='highligt' href='".get_term_link($years)."'>".strtoupper($years->name) ."</a></h4></div>";
             $args = array(
                 'tax_query' => array(
                     array(
@@ -21,7 +21,7 @@
                     )
                  ),                
                 'post_type' => 'publication',
-                'showposts' => 3
+                'showposts' => 4
             );
 
             $publications = get_posts($args);
@@ -47,10 +47,15 @@
                 </div> 
         
                 <?php endforeach; ?>
+                <?php echo "<div class='col-md-12 year-link'><h4 class='highlight'><a class='highligt' href='".get_term_link($years)."'>". __('See More Publciations in: ', 'rosa'). strtoupper($years->name) ."<i class='glyphicon glyphicon-circle-arrow-right'></i></a></h4></div>" ;?>
+
                 <div class="clearfix"></div>
+
 
                 <hr/>
         <?php endforeach; ?>
+
+
 
     </div>
 

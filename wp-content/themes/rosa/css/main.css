@@ -327,40 +327,107 @@ input[type], textarea {
   width: 100%;
   height: 100%;
 }
-/* line 318, ../scss/main.scss */
+/* line 317, ../scss/main.scss */
+.lists li p {
+  overflow: hidden;
+}
+/* line 322, ../scss/main.scss */
 .lists hr {
   clear: both;
   display: none;
 }
+/* line 332, ../scss/main.scss */
+.lists.publications-list li .img-post {
+  width: 160px;
+  height: auto;
+}
+/* line 336, ../scss/main.scss */
+.lists.publications-list li .img-post img {
+  height: auto;
+}
+/* line 341, ../scss/main.scss */
+.lists.publications-list li .date {
+  display: block;
+  font-weight: bold;
+  font-size: 10px;
+}
+/* line 348, ../scss/main.scss */
+.lists.publications-list li .type {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* line 355, ../scss/main.scss */
+.lists.publications-list li .organization {
+  display: block;
+  font-size: 10px;
+}
+/* line 359, ../scss/main.scss */
+.lists.publications-list li .organization .author {
+  color: #ff3300;
+  font-size: 11px;
+}
+/* line 366, ../scss/main.scss */
+.lists.publications-list li h5 {
+  margin: 0;
+}
+/* line 370, ../scss/main.scss */
+.lists.publications-list li .link, .lists.publications-list li .read-more {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
-/* line 325, ../scss/main.scss */
+/* line 380, ../scss/main.scss */
 .publication .img-post img {
   width: 100%;
   height: auto;
+  border: 1px solid #e8e8e8;
 }
 
-/* line 331, ../scss/main.scss */
+/* line 390, ../scss/main.scss */
 .publication-container a {
   color: #ff3300;
 }
+/* line 394, ../scss/main.scss */
+.publication-container .year-link {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+/* line 399, ../scss/main.scss */
+.publication-container .year-link h4 {
+  font-weight: bold;
+  font-size: 12px;
+}
+/* line 404, ../scss/main.scss */
+.publication-container .year-link h4 i {
+  margin-left: 10px;
+}
+/* line 411, ../scss/main.scss */
+.publication-container .year-name {
+  font-size: 24px;
+  font-weight: bold;
+}
 
-/* line 337, ../scss/main.scss */
+/* line 421, ../scss/main.scss */
 .article h4 {
   color: #ff3300;
   font-size: 22px;
   font-weight: bold;
 }
-/* line 343, ../scss/main.scss */
+/* line 427, ../scss/main.scss */
 .article > img {
   width: 100%;
   height: auto;
 }
 
-/* line 353, ../scss/main.scss */
+/* line 437, ../scss/main.scss */
 .staff-container .single-staff > span {
   color: #666;
 }
-/* line 357, ../scss/main.scss */
+/* line 441, ../scss/main.scss */
 .staff-container .single-staff .img-staff {
   width: 180px;
   height: 260px;
@@ -368,17 +435,17 @@ input[type], textarea {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 364, ../scss/main.scss */
+/* line 448, ../scss/main.scss */
 .staff-container .single-staff .img-staff img {
   width: 100%;
   height: auto;
 }
-/* line 371, ../scss/main.scss */
+/* line 455, ../scss/main.scss */
 .staff-container .single-staff .bio {
   margin-top: 10px;
   font-size: 14px;
 }
-/* line 376, ../scss/main.scss */
+/* line 460, ../scss/main.scss */
 .staff-container .single-staff .employee-title {
   color: #ff3300;
 }

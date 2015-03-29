@@ -164,6 +164,8 @@ class Publiction {
     public function show_details_form($post){
         $link = get_post_meta($post->ID,'publication_link', true);
         $date = get_post_meta($post->ID,'publication_date', true);
+        $language = get_post_meta($post->ID,'publication_lang', true);
+        $type = get_post_meta($post->ID,'publication_type', true);
         ?>
 
             <div class="formContainer">
@@ -174,16 +176,30 @@ class Publiction {
 
                     
                     <div class="link">
-                        <label for="publication-link"><?php _e('Publication Link','fespal') ;?></label>
+                        <label for="publication-link"><?php _e('Publication Link','rosa') ;?></label>
                         <input type="text" class="publication-link" value="<?php if(!empty($link)){echo $link;}?>"  id="publication-link" name="publication_link" />
                         <br />
                     </div>
                     
                     <div class="date">
-                        <label for="publication-date"><?php _e('Publication Date','fespal') ;?></label>
+                        <label for="publication-date"><?php _e('Publication Date','rosa') ;?></label>
                         <input type="text" class="publication-date" value="<?php if(!empty($date)){echo $date;}?>"  id="publication-date" name="publication_date" />
                         <br />
                     </div>
+
+                    <div class="lang">
+                        <label for="publication-lang"><?php _e('Publication Language','rosa') ;?></label>
+                        <input type="text" class="publication-lang" value="<?php if(!empty($language)){echo $language;}?>"  id="publication-lang" name="publication_lang" />
+                        <br />
+                    </div>
+
+                    <div class="type">
+                        <label for="publication-type"><?php _e('Publication Type','rosa') ;?></label>
+                        <input type="text" class="publication-type" value="<?php if(!empty($type)){echo $type;}?>"  id="publication-type" name="publication_type" />
+                        <br />
+                    </div>
+
+
                 </div>
            </div>
         <?php
@@ -201,10 +217,14 @@ class Publiction {
         }
         
         if(isset($_POST['publication_link']) &&
-           isset($_POST['publication_date'])
+           isset($_POST['publication_date']) &&
+           isset($_POST['publication_lang']) &&
+           isset($_POST['publication_type'])
           ){
             update_post_meta($post_id,'publication_link', $_POST['publication_link']);
             update_post_meta($post_id,'publication_date', $_POST['publication_date']);
+            update_post_meta($post_id,'publication_lang', $_POST['publication_lang']);
+            update_post_meta($post_id,'publication_type', $_POST['publication_type']);
         }
         
     }     

@@ -313,11 +313,66 @@ a{
 				height: 100%;
 			}
 		}
+
+		p{
+			overflow: hidden;
+		}
 	}
 
 	hr{
 		clear: both;
 		display: none;
+	}
+
+
+	&.publications-list{
+
+		li {
+
+			.img-post{
+				width: 160px;
+				height: auto;
+
+				img{
+					height: auto;
+				}
+			}
+
+			.date{
+				display: block;
+				font-weight: bold;
+				font-size: 10px;
+				
+			}
+
+			.type{
+				display: block;
+				font-weight: bold;
+				margin-top: 5px;
+				margin-bottom: 10px;				
+			}
+
+			.organization{
+				display: block;
+				font-size: 10px;
+
+				.author{
+					color: $primaryColor;
+					font-size: 11px;
+				}
+
+			}
+
+			h5{
+				margin: 0;
+			}
+
+			.link, .read-more{
+				font-size: 10px;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+		}
 	}
 }
 
@@ -325,11 +380,40 @@ a{
 	img{
 		width: 100%;
 		height: auto;
+		border: 1px solid #e8e8e8;
 	}
+
 }
 
-.publication-container a{
-	color: $primaryColor;
+.publication-container {
+
+	a{
+		color: $primaryColor;
+	}
+
+	.year-link{
+		text-align: right;
+		margin-top: 30px;
+		margin-bottom: -10px;
+
+		h4{
+			//text-transform: uppercase;
+			font-weight: bold;
+			font-size: 12px;
+
+			i{
+				margin-left: 10px;
+			}
+
+		}
+	}
+
+	.year-name{
+		font-size: 24px;
+		font-weight: bold;
+
+
+	}
 }
 
 .article{
