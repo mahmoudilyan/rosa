@@ -41,7 +41,15 @@ a{
 .fb-like-box{
 	margin-top: 25px;
 }
+.gap{
+	height: 20px;
+	clear:both;
+}
 
+span.position{
+	color: #939393;
+	font-size: 12px;
+}
 
 // Header
 .logo-container{
@@ -427,6 +435,57 @@ a{
 	> img{
 		width: 100%;
 		height: auto;
+	}
+
+
+	&.single-special{
+
+		.single-image {
+
+			img{
+				width: 100%;
+				height: auto;
+			}
+
+			.date{
+				display: block;
+				font-weight: bold;
+				font-size: 10px;
+				
+			}
+
+			.type{
+				display: block;
+				font-weight: bold;
+				margin-top: 5px;
+				margin-bottom: 10px;				
+			}
+
+			.organization{
+				display: block;
+				font-size: 10px;
+
+				.author{
+					color: $primaryColor;
+					font-size: 11px;
+				}
+
+			}
+
+			h5{
+				margin: 0;
+			}
+
+			.link, .read-more{
+				font-size: 10px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: $primaryColor;
+			}			
+
+		}
+
+
 	}
 }
 

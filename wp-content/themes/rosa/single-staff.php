@@ -15,15 +15,16 @@ get_header() ;
             <div class="article row single-special">
                 <?php if(have_posts()) : ?>
                 <?php while(have_posts()) : the_post() ;
-                $link = get_post_meta(get_the_ID(),'publication_link',true) ;
-                $lang = get_post_meta(get_the_ID(), 'publication_lang', true);
-                $type = get_post_meta(get_the_ID(), 'publication_type', true);
-                $date = get_post_meta(get_the_ID(), 'publication_date', true);
-                $organization = get_the_terms(get_the_ID(), 'organization');
+                    $position = get_post_meta(get_the_ID(),'employee_position',true) ;
+                    $location = get_post_meta(get_the_ID(),'employee_location',true) ;
+
                 ?>
 
                 <div class="col-md-8">
                     <h4><?php the_title() ;?></h4>
+                    <span class="position"><?php _e('Position: ','rosa') ;?><?php echo $position ;?></span>
+
+                    <div class="gap"></div>
             
                     <?php the_content() ;?>
 
@@ -38,15 +39,7 @@ get_header() ;
                     }
                 ?>
 
-                    <span class="date"><?php echo $date ;?></span>
-                    <?php if($organization) : ?>
 
-                        <span class="organization"><?php _e('Organization/Author: ', 'rosa'); echo '<span class="author">'. reset($organization)->name .'</span>' ;?></span>
-
-                    <?php endif ;?>
-
-                    <span class="type"><?php _e('Type: ','rosa') ;?><?php echo $type ;?></span>
-                    <h5><a href="<?php echo $link ;?>" class="link"><?php _e('Link ', 'rosa');?></a></h5>
 
                 </div>
 

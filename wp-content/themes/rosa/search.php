@@ -13,15 +13,15 @@ get_header() ;?>
             <ul class="lists">
                 <?php while(have_posts()) : the_post() ;?>
                 <li>
-                    <div class="img-post">
+<!--                     <div class="img-post">
                         <?php if( has_post_thumbnail() ){
-                                the_post_thumbnail('single',array('class' => 'img-single-staff'));
+                                //the_post_thumbnail('single');
                             }
                         ?>                        
-                    </div>
-                    <h6><?php the_title() ;?></h6>
+                    </div> -->
+                    <h6><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h6>
                     <?php the_excerpt() ;?>
-                    <a href="<?php the_permalink() ;?>"><?php _e('Read More ','fespal') ;?></a>
+                    <a href="<?php the_permalink() ;?>"><?php _e('Read More ','rosa') ;?></a>
                 </p>
                 <hr>
 
