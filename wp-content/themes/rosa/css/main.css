@@ -133,7 +133,7 @@ a {
   display: block;
 }
 /* line 151, ../scss/main.scss */
-.nav-container .menu > li.current_page_item a, .nav-container .menu > li.current-menu-parent > a {
+.nav-container .menu > li.current_page_item a, .nav-container .menu > li.current-menu-parent > a, .nav-container .menu > li.current-menu-item > a {
   background-color: #fff;
   color: #ff3300;
   font-weight: bold;
@@ -141,7 +141,7 @@ a {
   border-left: 0;
 }
 /* line 159, ../scss/main.scss */
-.nav-container .menu > li.current_page_item a + a, .nav-container .menu > li.current-menu-parent > a + a {
+.nav-container .menu > li.current_page_item a + a, .nav-container .menu > li.current-menu-parent > a + a, .nav-container .menu > li.current-menu-item > a + a {
   border-left: 0;
 }
 /* line 164, ../scss/main.scss */

@@ -18,6 +18,10 @@ $('document').ready(function (){
 
   $('.nav-container .menu > li > ul .current-menu-item').parent().addClass("active");
 
+  //console.log($('.current-menu-item.menu-item-has-children').find("ul"));
+
+  $('.current-menu-item.menu-item-has-children').find("ul").addClass("active");
+
 	$(".nav-container .menu > li > a").on("click", function(){
 		var $this = $(this),
 			$dropdown = $this.parent().find(".sub-menu");
