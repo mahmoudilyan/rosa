@@ -376,107 +376,111 @@ input[type], textarea {
 /* line 366, ../scss/main.scss */
 .lists.publications-list li .type {
   display: block;
-  font-weight: bold;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 /* line 373, ../scss/main.scss */
+.lists.publications-list li .location {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* line 381, ../scss/main.scss */
 .lists.publications-list li .organization {
   display: block;
   font-size: 10px;
 }
-/* line 377, ../scss/main.scss */
+/* line 385, ../scss/main.scss */
 .lists.publications-list li .organization .author {
   color: #ff3300;
   font-size: 11px;
 }
-/* line 384, ../scss/main.scss */
+/* line 392, ../scss/main.scss */
 .lists.publications-list li h5 {
   margin: 0;
 }
-/* line 388, ../scss/main.scss */
+/* line 396, ../scss/main.scss */
 .lists.publications-list li .link, .lists.publications-list li .read-more {
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 398, ../scss/main.scss */
+/* line 406, ../scss/main.scss */
 .publication .img-post img {
   width: 100%;
   height: auto;
   border: 1px solid #e8e8e8;
 }
 
-/* line 408, ../scss/main.scss */
+/* line 416, ../scss/main.scss */
 .publication-container a {
   color: #ff3300;
 }
-/* line 412, ../scss/main.scss */
+/* line 420, ../scss/main.scss */
 .publication-container .year-link {
   text-align: right;
   margin-top: 30px;
   margin-bottom: -10px;
 }
-/* line 417, ../scss/main.scss */
+/* line 425, ../scss/main.scss */
 .publication-container .year-link h4 {
   font-weight: bold;
   font-size: 12px;
 }
-/* line 422, ../scss/main.scss */
+/* line 430, ../scss/main.scss */
 .publication-container .year-link h4 i {
   margin-left: 10px;
 }
-/* line 429, ../scss/main.scss */
+/* line 437, ../scss/main.scss */
 .publication-container .year-name {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* line 439, ../scss/main.scss */
+/* line 447, ../scss/main.scss */
 .article h4 {
   color: #ff3300;
   font-size: 22px;
   font-weight: bold;
 }
-/* line 445, ../scss/main.scss */
+/* line 453, ../scss/main.scss */
 .article > img {
   width: 100%;
   height: auto;
 }
-/* line 455, ../scss/main.scss */
+/* line 463, ../scss/main.scss */
 .article.single-special .single-image img {
   width: 100%;
   height: auto;
 }
-/* line 460, ../scss/main.scss */
+/* line 468, ../scss/main.scss */
 .article.single-special .single-image .date {
   display: block;
   font-weight: bold;
   font-size: 10px;
 }
-/* line 467, ../scss/main.scss */
+/* line 475, ../scss/main.scss */
 .article.single-special .single-image .type {
   display: block;
-  font-weight: bold;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-/* line 474, ../scss/main.scss */
+/* line 482, ../scss/main.scss */
 .article.single-special .single-image .organization {
   display: block;
   font-size: 10px;
 }
-/* line 478, ../scss/main.scss */
+/* line 486, ../scss/main.scss */
 .article.single-special .single-image .organization .author {
   color: #ff3300;
   font-size: 11px;
 }
-/* line 485, ../scss/main.scss */
+/* line 493, ../scss/main.scss */
 .article.single-special .single-image h5 {
   margin: 0;
 }
-/* line 489, ../scss/main.scss */
+/* line 497, ../scss/main.scss */
 .article.single-special .single-image .link, .article.single-special .single-image .read-more {
   font-size: 10px;
   font-weight: bold;
@@ -484,11 +488,11 @@ input[type], textarea {
   color: #ff3300;
 }
 
-/* line 506, ../scss/main.scss */
+/* line 514, ../scss/main.scss */
 .staff-container .single-staff > span {
   color: #666;
 }
-/* line 510, ../scss/main.scss */
+/* line 518, ../scss/main.scss */
 .staff-container .single-staff .img-staff {
   width: 180px;
   height: 260px;
@@ -496,17 +500,17 @@ input[type], textarea {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 517, ../scss/main.scss */
+/* line 525, ../scss/main.scss */
 .staff-container .single-staff .img-staff img {
   width: 100%;
   height: auto;
 }
-/* line 524, ../scss/main.scss */
+/* line 532, ../scss/main.scss */
 .staff-container .single-staff .bio {
   margin-top: 10px;
   font-size: 14px;
 }
-/* line 529, ../scss/main.scss */
+/* line 537, ../scss/main.scss */
 .staff-container .single-staff .employee-title {
   color: #ff3300;
 }

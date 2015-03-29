@@ -15,11 +15,10 @@ get_header() ;
             <div class="article row single-special">
                 <?php if(have_posts()) : ?>
                 <?php while(have_posts()) : the_post() ;
-                $link = get_post_meta(get_the_ID(),'publication_link',true) ;
-                $lang = get_post_meta(get_the_ID(), 'publication_lang', true);
-                $type = get_post_meta(get_the_ID(), 'publication_type', true);
-                $date = get_post_meta(get_the_ID(), 'publication_date', true);
-                $organization = get_the_terms(get_the_ID(), 'organization');
+                $location = get_post_meta(get_the_ID(),'event_location',true) ;
+                $organizer = get_post_meta(get_the_ID(), 'event_organizer', true);
+                $type = get_post_meta(get_the_ID(), 'event_type', true);
+                $date = get_post_meta(get_the_ID(), 'event_date', true);
                 ?>
 
                 <div class="col-md-8">
@@ -39,14 +38,13 @@ get_header() ;
                 ?>
 
                     <span class="date"><?php echo $date ;?></span>
-                    <?php if($organization) : ?>
 
-                        <span class="organization"><?php _e('Organization/Author: ', 'rosa'); echo '<span class="author">'. reset($organization)->name .'</span>' ;?></span>
+                        <span class="organization"><?php _e('Organizer: ', 'rosa'); echo '<span class="author">'. $organizer.'</span>' ;?></span>
 
-                    <?php endif ;?>
 
                     <span class="type"><strong><?php _e('Type: ','rosa') ;?><?php echo '</strong>' . $type ;?></span>
-                    <h5><a href="<?php echo $link ;?>" class="link"><?php _e('Link ', 'rosa');?></a></h5>
+                    <span class="location"><strong><?php _e('Location: ','rosa'); echo '</strong>' . $location ;?></span>
+
 
                 </div>
 

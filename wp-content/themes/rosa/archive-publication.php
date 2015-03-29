@@ -5,7 +5,7 @@
 <div class="row">
     
     <div class="col-md-9">
-    <h1><?php _e('Publications','fespal') ;?></h1>
+    <h1><?php _e('Publications','rosa') ;?></h1>
     <?php 
         $years = get_terms(array('name' => 'publications_years'));
     ?>
