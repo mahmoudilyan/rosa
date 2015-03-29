@@ -38,7 +38,7 @@ get_header() ;?>
 
         <div class="col-md-3">
             <div class="sidebar">
-                <?php get_sidebar() ;?>
+                <?php get_sidebar('single') ;?>
                 
 
             </div>
