@@ -564,6 +564,18 @@ input[type], textarea {
   width: calc(100% - 175px);
 }
 
+/* line 591, ../scss/main.scss */
+body .wp-paginate .current {
+  background-color: #ff3300;
+  color: #fff;
+  border-color: #ff3300;
+}
+
+/* line 597, ../scss/main.scss */
+body .wp-paginate {
+  text-align: center;
+}
+
 /* line 6, ../scss/_publications.scss */
 .publication_fade .publication_single img {
   width: 100%;

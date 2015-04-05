@@ -588,6 +588,16 @@ span.position{
   width: calc(100% - 175px); 
 }
 
+body .wp-paginate .current{
+	background-color: $primaryColor;
+	color: #fff;
+	border-color: $primaryColor;
+}
+
+body .wp-paginate{
+	text-align: center;
+}
+
 // Publications
 @import "publications";
 

@@ -200,11 +200,6 @@ function fespal_content_nav($html_id, $the_query)
 {
 
     if ($the_query->max_num_pages > 1) : ?>
-        <div id="<?php echo esc_attr($html_id); ?>">
-            <div
-                class="nav-previous"><?php next_posts_link(__('<span class="meta-nav">&larr;</span> Older posts', 'fespal'), $the_query->max_num_pages ); ?></div>
-            <div
-                class="nav-next"><?php previous_posts_link(__('Newer posts <span class="meta-nav">&rarr;</span>', 'fespal'), $the_query->max_num_pages ); ?></div>
-        </div><!-- #nav-above -->
-    <?php endif;
+<?php wp_paginate();    ?>
+<?php endif;
 }
