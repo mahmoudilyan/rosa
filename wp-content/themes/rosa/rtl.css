@@ -1,4 +1,24 @@
+.nav-container .menu > li{
+	float: right;
+}
+
+.nav-container .menu > li > a{
+	border-left: 0;
+	border-right: 1px solid #fff;
+}
+
+.nav-container .menu > li .sub-menu{
+	right: 0;
+	left: auto;
+}
+
+.nav-container .menu > li .sub-menu > li{
+	float: right;
+}
+
+
 footer#main-footer p.copyright .social-links{
 
 	float: left;
 }
+
