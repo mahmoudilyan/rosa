@@ -33,6 +33,8 @@ get_header() ;?>
                         ?>                        
                     </div>
 
+                    <div class="post-details">
+
                     <span class="date"><?php echo $date ;?></span>
                     <?php if($organizer) : ?>
 
@@ -43,13 +45,12 @@ get_header() ;?>
                     <h6><?php the_title() ;?></h6>
                     <?php the_excerpt() ;?>
                     <span class="location"><strong><?php _e('Location: ','rosa'); echo '</strong>' . $location ;?></span>
+                    </div>
 
-                </p>
-                <hr>
-
+                </li>
                 <?php endwhile ;?>
                 <?php global $wp_query; ?>
-                </li>
+
 
             </ul>
             <?php fespal_content_nav("pagination", $wp_query); ?>

@@ -31,6 +31,8 @@ get_header() ;?>
                         </a>
                     </div>
 
+                    <div class="post-details">
+
                     <span class="date"><?php echo $date ;?></span>
                     <?php if($organization) : ?>
 
@@ -41,12 +43,12 @@ get_header() ;?>
                     <h6><a href="<?php echo $link; ?>"><?php the_title() ;?></a></h6>
                     <?php the_excerpt() ;?>
 
-                </p>
-                <hr>
-
+                
+                    </div>
+                </li>
+                
                 <?php endwhile ;?>
                 <?php global $wp_query; ?>
-                </li>
 
             </ul>
             <?php fespal_content_nav("pagination", $wp_query); ?>
