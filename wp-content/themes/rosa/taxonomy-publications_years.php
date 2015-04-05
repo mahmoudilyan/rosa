@@ -23,10 +23,12 @@ get_header() ;?>
 
                 <li>
                     <div class="img-post">
+                        <a href="<?php echo $link ;?>">
                         <?php if( has_post_thumbnail() ){
                                 the_post_thumbnail('staff');
                             }
                         ?>                        
+                        </a>
                     </div>
 
                     <span class="date"><?php echo $date ;?></span>
@@ -36,10 +38,8 @@ get_header() ;?>
 
                     <?php endif ;?>
                     <span class="type"><?php echo $type ;?></span>
-                    <h6><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h6>
+                    <h6><a href="<?php echo $link; ?>"><?php the_title() ;?></a></h6>
                     <?php the_excerpt() ;?>
-                    <h5><a href="<?php echo $link ;?>" class="link"><?php _e('Link ', 'rosa');?></a></h5>
-                    <a href="<?php the_permalink() ;?>" class="read-more"><?php _e('Read More ','rosa') ;?></a>
 
                 </p>
                 <hr>

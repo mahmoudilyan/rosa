@@ -30,6 +30,7 @@
     add_image_size('single_staff','150','150',true);
     add_image_size('partner','150','150',true);
     add_image_size('home_slider','500','300', true);
+    add_image_size('single-event', '400', '300', true);
 
 	
 	// Add RSS links to <head> section

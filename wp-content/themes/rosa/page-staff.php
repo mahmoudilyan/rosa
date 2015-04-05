@@ -28,15 +28,16 @@ get_header() ;?>
             
             <!-- Staff[Begins] -->
             <div class="row staff-container">
+              
                 <?php $the_query = new WP_Query('post_type=staff&posts_per_page=-1&orderby=menu_order&order=ASC') ;
-                $i = 3;                
+                $i = 1;                
                 while($the_query->have_posts()) : $the_query->the_post() ; $i++?>
                 <?php 
                     $position = get_post_meta(get_the_ID(),'employee_position',true) ;
                     $location = get_post_meta(get_the_ID(),'employee_location',true) ;
                 ?> 
                 <div class="col-md-12">
-                    <div class="single-staff">
+                    <div class="single-staff" id="<?php the_ID() ;?>">
                         <div class="img-staff">
                             <?php if(has_post_thumbnail()){
                                 the_post_thumbnail('staff');
@@ -55,7 +56,7 @@ get_header() ;?>
                     </div>
                 </div>
 
-                <?php //if( $i % 3  === 0) { echo '<div class="clearfix"></div>';} ?>
+                <?php $i++ ;?>
                 <?php endwhile;  ?>                
 
             </div>            

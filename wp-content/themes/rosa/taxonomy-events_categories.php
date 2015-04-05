@@ -10,7 +10,7 @@ get_header() ;?>
 
             <?php if(have_posts()) : ?>
             
-            <ul class="lists publications-list">
+            <ul class="lists publications-list events-list">
                 <?php while(have_posts()) : the_post() ;
                 $location = get_post_meta(get_the_ID(),'event_location',true) ;
                 $organizer = get_post_meta(get_the_ID(), 'event_organizer', true);
@@ -23,7 +23,7 @@ get_header() ;?>
                 <li>
                     <div class="img-post">
                         <?php if( has_post_thumbnail() ){
-                                the_post_thumbnail('staff');
+                                the_post_thumbnail('single-event');
                             }
                         ?>                        
                     </div>
@@ -35,10 +35,9 @@ get_header() ;?>
 
                     <?php endif ;?>
                     <span class="type"><strong><?php _e('Type: ','rosa'); echo '</strong>'. $type ;?></span>
-                    <h6><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h6>
+                    <h6><?php the_title() ;?></h6>
                     <?php the_excerpt() ;?>
                     <span class="location"><strong><?php _e('Location: ','rosa'); echo '</strong>' . $location ;?></span>
-                    <a href="<?php the_permalink() ;?>" class="read-more"><?php _e('Read More ','rosa') ;?></a>
 
                 </p>
                 <hr>

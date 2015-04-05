@@ -3,7 +3,10 @@ $('document').ready(function (){
 
 	$('#main-slider').owlCarousel({
       singleItem:true,
-      autoPlay: true
+      autoPlay: true,
+      //rewindNav: false,
+      slideSpeed: 500,
+      transitionStyle : "fade"
   });
 
 

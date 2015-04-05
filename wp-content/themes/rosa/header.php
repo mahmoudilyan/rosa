@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/owlCarousel/owl-carousel/owl.carousel.css"/>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/owlCarousel/owl-carousel/owl.theme.css"/>
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/owlCarousel/owl-carousel/owl.transitions.css"/>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css"/>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/print.css" media="print"/>
     
