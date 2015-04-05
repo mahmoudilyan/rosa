@@ -38,7 +38,11 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/owlCarousel/owl-carousel/owl.transitions.css"/>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css"/>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/print.css" media="print"/>
-    
+
+	<?php if(ICL_LANGUAGE_CODE === 'ar') : ;?>
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/bootstrap-rtl/dist/css/bootstrap-rtl.min.css"/>
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/rtl.css">
+    <?php endif; ?>
     
     <!--[if lt IE 9]>
     <link type="text/css" href="<?php bloginfo('template_url') ;?>/css/movingboxes-ie.css" rel="stylesheet" media="screen" />

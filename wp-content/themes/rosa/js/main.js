@@ -17,6 +17,14 @@ $('document').ready(function (){
 
 	});
 
+
+  $(".fow-sep").each(function (){
+    var $this = $(this),
+        parentHeight = $this.parents("li").height();
+        $this.height(parentHeight);
+  });
+
+
 	//$('.nav-container .menu').dropdown();
 
   $('.nav-container .menu > li > ul .current-menu-item').parent().addClass("active");

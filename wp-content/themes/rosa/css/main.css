@@ -488,11 +488,41 @@ input[type], textarea {
   color: #ff3300;
 }
 
+/* line 510, ../scss/main.scss */
+.lists.events-list li .img-post {
+  width: 200px;
+  height: 150px;
+}
 /* line 514, ../scss/main.scss */
+.lists.events-list li .img-post img {
+  margin-bottom: 20px;
+}
+
+/* line 519, ../scss/main.scss */
+.lists li {
+  position: relative;
+}
+/* line 522, ../scss/main.scss */
+.lists li .border {
+  background-color: #ff3300;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+}
+/* line 532, ../scss/main.scss */
+.lists li .fow-sep {
+  width: 55px;
+  float: left;
+  display: block;
+}
+
+/* line 545, ../scss/main.scss */
 .staff-container .single-staff > span {
   color: #666;
 }
-/* line 518, ../scss/main.scss */
+/* line 549, ../scss/main.scss */
 .staff-container .single-staff .img-staff {
   width: 180px;
   height: 260px;
@@ -500,19 +530,24 @@ input[type], textarea {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 525, ../scss/main.scss */
+/* line 556, ../scss/main.scss */
 .staff-container .single-staff .img-staff img {
   width: 100%;
   height: auto;
 }
-/* line 532, ../scss/main.scss */
+/* line 563, ../scss/main.scss */
 .staff-container .single-staff .bio {
   margin-top: 10px;
   font-size: 14px;
 }
-/* line 537, ../scss/main.scss */
+/* line 568, ../scss/main.scss */
 .staff-container .single-staff .employee-title {
   color: #ff3300;
+}
+
+/* line 575, ../scss/main.scss */
+footer#main-footer p.copyright .social-links {
+  margin-right: 15px;
 }
 
 /* line 6, ../scss/_publications.scss */
