@@ -546,7 +546,7 @@ input[type], textarea {
 }
 
 /* line 575, ../scss/main.scss */
-footer#main-footer p.copyright .social-links {
+.youtube_channel .ytc_video_container {
   margin-right: 15px;
 }
 
