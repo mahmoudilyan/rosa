@@ -1,0 +1,687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rosa\n"
+"POT-Creation-Date: 2015-04-05 19:57+0200\n"
+"PO-Revision-Date: 2015-04-05 19:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../bower_components\n"
+
+#: ../archive-event.php:8 ../inc/event.php:42 ../inc/event.php:54
+msgid "Events"
+msgstr "الفعاليات"
+
+#: ../archive-event.php:51 ../archive-fow_palestine.php:44
+#: ../archive-publication.php:50
+msgid "More"
+msgstr "المزيد"
+
+#: ../archive-event.php:55
+msgid "See More Events in: "
+msgstr ""
+
+#: ../archive-fow_palestine.php:50
+msgid "See More"
+msgstr ""
+
+#: ../archive-publication.php:8 ../inc/publication.php:46
+#: ../inc/publication.php:58
+msgid "Publications"
+msgstr "المنشورات"
+
+#: ../archive-publication.php:54
+msgid "See More Publciations in: "
+msgstr ""
+
+#: ../category.php:23 ../search.php:24 ../taxonomy-fow_jordan_years.php:34
+#: ../taxonomy-fow_palestine_years.php:33
+msgid "Read More "
+msgstr ""
+
+#: ../footer.php:17
+msgid "All Right Reserved To Rosa Luxemburg Stiftung 2015"
+msgstr ""
+
+#: ../functions.php:74
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:206
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../functions.php:208
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/event.php:43
+msgid "Event"
+msgstr ""
+
+#: ../inc/event.php:44 ../inc/fow_jordan.php:44 ../inc/fow_palestine.php:44
+#: ../inc/infographics.php:40 ../inc/partner.php:32 ../inc/publication.php:48
+#: ../inc/staff.php:32
+msgid "Add new"
+msgstr ""
+
+#: ../inc/event.php:45
+msgid "Add New Event"
+msgstr ""
+
+#: ../inc/event.php:46
+msgid "Edit Event"
+msgstr ""
+
+#: ../inc/event.php:47
+msgid "New Event"
+msgstr ""
+
+#: ../inc/event.php:48
+msgid "All Event"
+msgstr ""
+
+#: ../inc/event.php:49
+msgid "View Event"
+msgstr ""
+
+#: ../inc/event.php:50
+msgid "Search Events"
+msgstr ""
+
+#: ../inc/event.php:51
+msgid "No Events found"
+msgstr ""
+
+#: ../inc/event.php:52
+msgid "No Events found in Trash"
+msgstr ""
+
+#: ../inc/event.php:84
+msgid "Search Events Categories"
+msgstr ""
+
+#: ../inc/event.php:85
+msgid "All Events Categories"
+msgstr ""
+
+#: ../inc/event.php:86 ../inc/fow_jordan.php:86 ../inc/fow_palestine.php:87
+#: ../inc/publication.php:90 ../inc/publication.php:120
+msgid "Parent"
+msgstr ""
+
+#: ../inc/event.php:87 ../inc/fow_jordan.php:87 ../inc/fow_palestine.php:88
+#: ../inc/publication.php:91 ../inc/publication.php:121
+msgid "Parent "
+msgstr ""
+
+#: ../inc/event.php:88
+msgid "Edit Event Category"
+msgstr ""
+
+#: ../inc/event.php:89
+msgid "Update Event Category"
+msgstr ""
+
+#: ../inc/event.php:90
+msgid "Add New Event Category"
+msgstr ""
+
+#: ../inc/event.php:91
+msgid "New Event Category Name"
+msgstr ""
+
+#: ../inc/event.php:92
+msgid "Events Categories"
+msgstr ""
+
+#: ../inc/event.php:116
+msgid "Enter Your Event Title Here"
+msgstr ""
+
+#: ../inc/event.php:146
+msgid "Event Organizer"
+msgstr ""
+
+#: ../inc/event.php:153
+msgid "Event Date"
+msgstr ""
+
+#: ../inc/event.php:159
+msgid "Event Location"
+msgstr ""
+
+#: ../inc/event.php:165
+msgid "Event Type"
+msgstr ""
+
+#: ../inc/fow_jordan.php:42 ../inc/fow_jordan.php:43
+msgid "Field Of Work Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:45
+msgid "Add New FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:46
+msgid "Edit FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:47
+msgid "New FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:48
+msgid "All FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:49
+msgid "View FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:50
+msgid "Search FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:51
+msgid "No FOW Jordan found"
+msgstr ""
+
+#: ../inc/fow_jordan.php:52 ../inc/fow_palestine.php:52
+msgid "No FOW found in Trash"
+msgstr ""
+
+#: ../inc/fow_jordan.php:54
+msgid "FOW Jordan"
+msgstr ""
+
+#: ../inc/fow_jordan.php:84 ../inc/fow_palestine.php:85
+msgid "Search Years"
+msgstr ""
+
+#: ../inc/fow_jordan.php:85 ../inc/fow_palestine.php:86
+msgid "All Years"
+msgstr ""
+
+#: ../inc/fow_jordan.php:88 ../inc/fow_palestine.php:89
+msgid "Edit Year"
+msgstr ""
+
+#: ../inc/fow_jordan.php:89 ../inc/fow_palestine.php:90
+msgid "Update Year"
+msgstr ""
+
+#: ../inc/fow_jordan.php:90 ../inc/fow_palestine.php:91
+msgid "Add New Year"
+msgstr ""
+
+#: ../inc/fow_jordan.php:91 ../inc/fow_palestine.php:92
+msgid "New Year Name"
+msgstr ""
+
+#: ../inc/fow_jordan.php:92 ../inc/fow_palestine.php:93
+msgid "FOW Palestine Years"
+msgstr ""
+
+#: ../inc/fow_jordan.php:115
+msgid "Enter Field Of Work Jordan Title Here"
+msgstr ""
+
+#: ../inc/fow_palestine.php:42 ../inc/fow_palestine.php:43
+msgid "Field Of Work palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:45
+msgid "Add New FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:46
+msgid "Edit FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:47
+msgid "New FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:48
+msgid "All FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:49
+msgid "View FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:50
+msgid "Search FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:51
+msgid "No FOW palestine found"
+msgstr ""
+
+#: ../inc/fow_palestine.php:54
+msgid "FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:116
+msgid "Enter Field Of Work palestine Title Here"
+msgstr ""
+
+#: ../inc/infographics.php:38 ../inc/infographics.php:39
+msgid "Infographic"
+msgstr ""
+
+#: ../inc/infographics.php:41
+msgid "Add New Infographic"
+msgstr ""
+
+#: ../inc/infographics.php:42
+msgid "Edit Infographic Fact"
+msgstr ""
+
+#: ../inc/infographics.php:43
+msgid "New Infographic Fact"
+msgstr ""
+
+#: ../inc/infographics.php:44
+msgid "All Infographic"
+msgstr ""
+
+#: ../inc/infographics.php:45
+msgid "View Infographic"
+msgstr ""
+
+#: ../inc/infographics.php:46
+msgid "Search Infographic"
+msgstr ""
+
+#: ../inc/infographics.php:47
+msgid "No Infographic found"
+msgstr ""
+
+#: ../inc/infographics.php:48
+msgid "No Infographic found in Trash"
+msgstr ""
+
+#: ../inc/infographics.php:50
+msgid "Infographics"
+msgstr ""
+
+#: ../inc/infographics.php:82
+msgid "Enter Your Infographic Title Here"
+msgstr ""
+
+#: ../inc/infographics.php:109
+msgid "Infographic Link"
+msgstr ""
+
+#: ../inc/partner.php:30 ../inc/partner.php:42
+msgid "Partners"
+msgstr ""
+
+#: ../inc/partner.php:31
+msgid "Partner"
+msgstr ""
+
+#: ../inc/partner.php:33
+msgid "Add New Partner"
+msgstr ""
+
+#: ../inc/partner.php:34
+msgid "Edit Partner"
+msgstr ""
+
+#: ../inc/partner.php:35
+msgid "New Partner"
+msgstr ""
+
+#: ../inc/partner.php:36
+msgid "All Partners"
+msgstr ""
+
+#: ../inc/partner.php:37
+msgid "View Partners"
+msgstr ""
+
+#: ../inc/partner.php:38
+msgid "Search partners"
+msgstr ""
+
+#: ../inc/partner.php:39
+msgid "No Partners found"
+msgstr ""
+
+#: ../inc/partner.php:40
+msgid "No Partners found in Trash"
+msgstr ""
+
+#: ../inc/partner.php:74
+msgid "Enter Your Partner Name Here"
+msgstr ""
+
+#: ../inc/partner.php:101
+msgid "Partner Link"
+msgstr ""
+
+#: ../inc/publication.php:47
+msgid "Publication"
+msgstr ""
+
+#: ../inc/publication.php:49
+msgid "Add New Publication"
+msgstr ""
+
+#: ../inc/publication.php:50
+msgid "Edit Publication"
+msgstr ""
+
+#: ../inc/publication.php:51
+msgid "New Publication"
+msgstr ""
+
+#: ../inc/publication.php:52
+msgid "All Publication"
+msgstr ""
+
+#: ../inc/publication.php:53
+msgid "View Publication"
+msgstr ""
+
+#: ../inc/publication.php:54
+msgid "Search publications"
+msgstr ""
+
+#: ../inc/publication.php:55
+msgid "No Publications found"
+msgstr ""
+
+#: ../inc/publication.php:56
+msgid "No Publications found in Trash"
+msgstr ""
+
+#: ../inc/publication.php:88
+msgid "Search Organizations"
+msgstr ""
+
+#: ../inc/publication.php:89
+msgid "All Organizations"
+msgstr ""
+
+#: ../inc/publication.php:92
+msgid "Edit Organization"
+msgstr ""
+
+#: ../inc/publication.php:93
+msgid "Update Organization"
+msgstr ""
+
+#: ../inc/publication.php:94
+msgid "Add New Organization"
+msgstr ""
+
+#: ../inc/publication.php:95
+msgid "New Organization Name"
+msgstr ""
+
+#: ../inc/publication.php:96 ../widgets/Publication_Widget.php:43
+msgid "Organizations"
+msgstr ""
+
+#: ../inc/publication.php:118
+msgid "Search Publications Yearss"
+msgstr ""
+
+#: ../inc/publication.php:119
+msgid "All Publications Yearss"
+msgstr ""
+
+#: ../inc/publication.php:122
+msgid "Edit Publications Years"
+msgstr ""
+
+#: ../inc/publication.php:123
+msgid "Update Publications Years"
+msgstr ""
+
+#: ../inc/publication.php:124
+msgid "Add New Publications Years"
+msgstr ""
+
+#: ../inc/publication.php:125
+msgid "New Publications Years Name"
+msgstr ""
+
+#: ../inc/publication.php:126
+msgid "Years"
+msgstr ""
+
+#: ../inc/publication.php:149
+msgid "Enter Your Publication Title Here"
+msgstr ""
+
+#: ../inc/publication.php:179
+msgid "Publication Link"
+msgstr ""
+
+#: ../inc/publication.php:185
+msgid "Publication Date"
+msgstr ""
+
+#: ../inc/publication.php:191
+msgid "Publication Language"
+msgstr ""
+
+#: ../inc/publication.php:197
+msgid "Publication Type"
+msgstr ""
+
+#: ../inc/staff.php:30 ../inc/staff.php:31 ../inc/staff.php:42
+msgid "Staff"
+msgstr ""
+
+#: ../inc/staff.php:33
+msgid "Add New Staff"
+msgstr ""
+
+#: ../inc/staff.php:34
+msgid "Edit Staff"
+msgstr ""
+
+#: ../inc/staff.php:35
+msgid "New Staff"
+msgstr ""
+
+#: ../inc/staff.php:36
+msgid "All Staff"
+msgstr ""
+
+#: ../inc/staff.php:37
+msgid "View Staff"
+msgstr ""
+
+#: ../inc/staff.php:38
+msgid "Search Staff"
+msgstr ""
+
+#: ../inc/staff.php:39
+msgid "No Staff found"
+msgstr ""
+
+#: ../inc/staff.php:40
+msgid "No Staff found in Trash"
+msgstr ""
+
+#: ../inc/staff.php:74
+msgid "Enter Employee Name Here"
+msgstr ""
+
+#: ../inc/staff.php:102
+msgid "Position"
+msgstr ""
+
+#: ../inc/staff.php:106
+msgid "Location"
+msgstr ""
+
+#: ../search.php:12
+msgid "Search results: "
+msgstr "نتائج البحث"
+
+#: ../search.php:35
+msgid "No results found"
+msgstr "لا توجد نتائج"
+
+#: ../searchform.php:5
+msgid "Search.."
+msgstr "ادخل كلمة البحث"
+
+#: ../searchform.php:6
+msgid "Search"
+msgstr "ابحث"
+
+#: ../single-event.php:42
+msgid "Organizer: "
+msgstr "المنظم"
+
+#: ../single-event.php:45 ../single-publication.php:48
+#: ../taxonomy-events_categories.php:42
+msgid "Type: "
+msgstr "النوع"
+
+#: ../single-event.php:46 ../taxonomy-events_categories.php:45
+msgid "Location: "
+msgstr ""
+
+#: ../single-publication.php:44 ../taxonomy-events_categories.php:39
+#: ../taxonomy-publications_years.php:37
+msgid "Organization/Author: "
+msgstr ""
+
+#: ../single-publication.php:49
+msgid "Link "
+msgstr "الرابط"
+
+#: ../single-staff.php:25
+msgid "Position: "
+msgstr "المنصب"
+
+#: ../taxonomy-fow_jordan_years.php:9 ../taxonomy-fow_palestine_years.php:9
+msgid "Partners & Projects "
+msgstr "الشركاء والمشاريع"
+
+#: ../taxonomy-publications_years.php:9
+msgid "Publications: "
+msgstr "المنشورات"
+
+#: ../widgets/Company_Info_Widget.php:11
+msgid "Company Widget Details for Rosa"
+msgstr ""
+
+#: ../widgets/Company_Info_Widget.php:12
+msgid "Rosa Company Details"
+msgstr ""
+
+#: ../widgets/Company_Info_Widget.php:29
+#: ../widgets/Contact_Details_Widget.php:29
+#: ../widgets/Infographics_Widget.php:29 ../widgets/News_Widget.php:29
+#: ../widgets/Publication_Widget.php:29
+msgid "Language"
+msgstr ""
+
+#: ../widgets/Company_Info_Widget.php:36
+msgid "Company Details"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:11
+msgid "Contact Widget Details for Rosa"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:12
+msgid "Rosa Contact Details"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:36
+msgid "Address"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:43
+msgid "Phone"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:50
+msgid "fax"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:57
+msgid "email"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:64
+msgid "website"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:71
+msgid "facebook page"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:98
+msgid "Phone:"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:99
+msgid "Fax:"
+msgstr ""
+
+#: ../widgets/Contact_Details_Widget.php:101
+msgid "E-Mail:"
+msgstr ""
+
+#: ../widgets/Infographics_Widget.php:12
+msgid "This will display your InfoGraphics"
+msgstr ""
+
+#: ../widgets/Infographics_Widget.php:13
+msgid "Rosa Infographics Widget"
+msgstr ""
+
+#: ../widgets/Infographics_Widget.php:36 ../widgets/News_Widget.php:36
+#: ../widgets/Publication_Widget.php:36
+msgid "Title"
+msgstr ""
+
+#: ../widgets/News_Widget.php:12
+msgid "Widget News"
+msgstr ""
+
+#: ../widgets/News_Widget.php:13
+msgid "Rosa News Widget"
+msgstr ""
+
+#: ../widgets/News_Widget.php:43
+msgid "Choose Your News Category"
+msgstr ""
+
+#: ../widgets/News_Widget.php:86
+msgid "See All"
+msgstr "مشاهدة الكل"
+
+#: ../widgets/Publication_Widget.php:12
+msgid "This will display your publication"
+msgstr ""
+
+#: ../widgets/Publication_Widget.php:13
+msgid "Rosa Publication Widget"
+msgstr ""
+
+#: ../widgets/Publication_Widget.php:55
+msgid "How Many Publiations to show"
+msgstr ""

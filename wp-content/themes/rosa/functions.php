@@ -179,7 +179,6 @@
                 <?php
             }
 
-            echo '<li><a href="#">عربي</a></li>';
             echo '</ul>';
         }
     }    
