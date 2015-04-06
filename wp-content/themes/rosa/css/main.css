@@ -550,28 +550,28 @@ input[type], textarea {
   margin-right: 15px;
 }
 
-/* line 579, ../scss/main.scss */
-.post-details {
-  float: left;
-  width: 460px;
-  width: calc(100% - 210px);
-}
-
-/* line 585, ../scss/main.scss */
+/* line 581, ../scss/main.scss */
 .publications-list .post-details {
   float: left;
   width: 495px;
   width: calc(100% - 175px);
 }
 
-/* line 591, ../scss/main.scss */
+/* line 587, ../scss/main.scss */
+.events-list .post-details {
+  float: left;
+  width: 460px;
+  width: calc(100% - 210px);
+}
+
+/* line 593, ../scss/main.scss */
 body .wp-paginate .current {
   background-color: #ff3300;
   color: #fff;
   border-color: #ff3300;
 }
 
-/* line 597, ../scss/main.scss */
+/* line 599, ../scss/main.scss */
 body .wp-paginate {
   text-align: center;
 }

@@ -576,16 +576,18 @@ span.position{
 	margin-right: 15px;
 }
 
-.post-details{
-	float: left;
-	width: 460px;
-	width: calc(100% - 210px);
-}
+
 
 .publications-list .post-details {
   float: left;
   width: 495px;
   width: calc(100% - 175px); 
+}
+
+.events-list .post-details{
+	float: left;
+	width: 460px;
+	width: calc(100% - 210px);
 }
 
 body .wp-paginate .current{
