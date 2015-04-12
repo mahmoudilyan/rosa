@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rosa\n"
 "POT-Creation-Date: 2015-04-12 16:54+0200\n"
-"PO-Revision-Date: 2015-04-12 17:06+0200\n"
+"PO-Revision-Date: 2015-04-12 17:50+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -46,7 +46,7 @@ msgstr ""
 #: ../category.php:35 ../search.php:24 ../taxonomy-fow_jordan_years.php:34
 #: ../taxonomy-fow_palestine_years.php:33
 msgid "Read More "
-msgstr ""
+msgstr "اقرأ المزيد"
 
 #: ../footer.php:17
 msgid "All Rights Reserved To Rosa Luxemburg Stiftung 2015"

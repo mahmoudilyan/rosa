@@ -39,6 +39,14 @@ p{
 	color: #fff;
 }
 
+.lists li .fow-sep{
+	float: right;
+}
+
+.lists li .border{
+	right: 0;
+}
+
 footer#main-footer p.copyright .social-links{
 
 	float: left;

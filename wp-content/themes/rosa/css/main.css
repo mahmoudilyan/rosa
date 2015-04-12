@@ -174,23 +174,24 @@ span.position {
 #content {
   margin-top: 20px;
   background: #fff;
+  padding: 0 20px;
 }
 
-/* line 193, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 .alignright {
   float: right;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
-/* line 199, ../scss/main.scss */
+/* line 200, ../scss/main.scss */
 .alignleft {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-/* line 205, ../scss/main.scss */
+/* line 206, ../scss/main.scss */
 .home-page-article {
   margin-top: 40px;
 }
@@ -209,14 +210,14 @@ input[type], textarea {
   border: 0;
 }
 
-/* line 219, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
 #search {
-  width: 75%;
+  width: 70%;
 }
 
-/* line 223, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 .searchSubmit {
-  width: 20%;
+  width: 25%;
 }
 
 /* line 3, ../scss/_slider.scss */
@@ -257,14 +258,14 @@ input[type], textarea {
   text-align: right;
 }
 
-/* line 233, ../scss/main.scss */
+/* line 234, ../scss/main.scss */
 .widget h3 {
   text-transform: uppercase;
   font-size: 14px;
   color: #ff3300;
   font-weight: bold;
 }
-/* line 240, ../scss/main.scss */
+/* line 241, ../scss/main.scss */
 .widget h3:before {
   content: ' ';
   display: inline-block;
@@ -274,60 +275,60 @@ input[type], textarea {
   margin-right: 10px;
   margin-left: 5px;
 }
-/* line 252, ../scss/main.scss */
+/* line 253, ../scss/main.scss */
 .widget ul {
   font-size: 11px;
   list-style-type: none;
   padding-left: 27px;
 }
-/* line 257, ../scss/main.scss */
+/* line 258, ../scss/main.scss */
 .widget ul li {
   margin-bottom: 10px;
 }
-/* line 261, ../scss/main.scss */
+/* line 262, ../scss/main.scss */
 .widget ul span {
   display: block;
   color: #ff3300;
   font-size: 10px;
 }
-/* line 268, ../scss/main.scss */
+/* line 269, ../scss/main.scss */
 .widget .menu {
   background-color: #ff3300;
   padding: 15px;
 }
-/* line 272, ../scss/main.scss */
+/* line 273, ../scss/main.scss */
 .widget .menu > li > a {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
 }
-/* line 279, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 .widget .menu .sub-menu {
   list-style-type: circle;
   color: #fff;
 }
-/* line 283, ../scss/main.scss */
+/* line 284, ../scss/main.scss */
 .widget .menu .sub-menu a {
   font-size: 11px;
 }
-/* line 290, ../scss/main.scss */
+/* line 291, ../scss/main.scss */
 .widget .menu#menu-fields-of-work > li {
   margin-bottom: 10px;
 }
-/* line 293, ../scss/main.scss */
+/* line 294, ../scss/main.scss */
 .widget .menu#menu-fields-of-work > li:last-child {
   margin-bottom: 0;
 }
-/* line 297, ../scss/main.scss */
+/* line 298, ../scss/main.scss */
 .widget .menu#menu-fields-of-work > li a {
   color: #fff;
 }
 
-/* line 307, ../scss/main.scss */
+/* line 308, ../scss/main.scss */
 .lists {
   padding: 0;
 }
-/* line 310, ../scss/main.scss */
+/* line 311, ../scss/main.scss */
 .lists li {
   list-style-type: none;
   overflow: hidden;
@@ -335,7 +336,7 @@ input[type], textarea {
   padding: 10px;
   margin-bottom: 10px;
 }
-/* line 317, ../scss/main.scss */
+/* line 318, ../scss/main.scss */
 .lists li h6 {
   text-transform: uppercase;
   color: #ff3300;
@@ -343,11 +344,11 @@ input[type], textarea {
   margin: 0 0 10px 0;
   font-weight: bold;
 }
-/* line 325, ../scss/main.scss */
+/* line 326, ../scss/main.scss */
 .lists li a {
   color: #ff3300;
 }
-/* line 329, ../scss/main.scss */
+/* line 330, ../scss/main.scss */
 .lists li .img-post {
   width: 220px;
   height: 140px;
@@ -355,143 +356,143 @@ input[type], textarea {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 336, ../scss/main.scss */
+/* line 337, ../scss/main.scss */
 .lists li .img-post img {
   width: 100%;
   height: 100%;
 }
-/* line 342, ../scss/main.scss */
+/* line 343, ../scss/main.scss */
 .lists li p {
   overflow: hidden;
 }
-/* line 347, ../scss/main.scss */
+/* line 348, ../scss/main.scss */
 .lists hr {
   clear: both;
   display: none;
 }
-/* line 357, ../scss/main.scss */
+/* line 358, ../scss/main.scss */
 .lists.publications-list li .img-post {
   width: 160px;
   height: auto;
 }
-/* line 361, ../scss/main.scss */
+/* line 362, ../scss/main.scss */
 .lists.publications-list li .img-post img {
   height: auto;
 }
-/* line 366, ../scss/main.scss */
+/* line 367, ../scss/main.scss */
 .lists.publications-list li .date {
   display: block;
   font-weight: bold;
   font-size: 10px;
 }
-/* line 373, ../scss/main.scss */
+/* line 374, ../scss/main.scss */
 .lists.publications-list li .type {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-/* line 380, ../scss/main.scss */
+/* line 381, ../scss/main.scss */
 .lists.publications-list li .location {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-/* line 388, ../scss/main.scss */
+/* line 389, ../scss/main.scss */
 .lists.publications-list li .organization {
   display: block;
   font-size: 10px;
 }
-/* line 392, ../scss/main.scss */
+/* line 393, ../scss/main.scss */
 .lists.publications-list li .organization .author {
   color: #ff3300;
   font-size: 11px;
 }
-/* line 399, ../scss/main.scss */
+/* line 400, ../scss/main.scss */
 .lists.publications-list li h5 {
   margin: 0;
 }
-/* line 403, ../scss/main.scss */
+/* line 404, ../scss/main.scss */
 .lists.publications-list li .link, .lists.publications-list li .read-more {
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 413, ../scss/main.scss */
+/* line 414, ../scss/main.scss */
 .publication .img-post img {
   width: 100%;
   height: auto;
   border: 1px solid #e8e8e8;
 }
 
-/* line 423, ../scss/main.scss */
+/* line 424, ../scss/main.scss */
 .publication-container a {
   color: #ff3300;
 }
-/* line 427, ../scss/main.scss */
+/* line 428, ../scss/main.scss */
 .publication-container .year-link {
   text-align: right;
   margin-top: 30px;
   margin-bottom: -10px;
 }
-/* line 432, ../scss/main.scss */
+/* line 433, ../scss/main.scss */
 .publication-container .year-link h4 {
   font-weight: bold;
   font-size: 12px;
 }
-/* line 437, ../scss/main.scss */
+/* line 438, ../scss/main.scss */
 .publication-container .year-link h4 i {
   margin-left: 10px;
 }
-/* line 444, ../scss/main.scss */
+/* line 445, ../scss/main.scss */
 .publication-container .year-name {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* line 454, ../scss/main.scss */
+/* line 455, ../scss/main.scss */
 .article h4 {
   color: #ff3300;
   font-size: 22px;
   font-weight: bold;
 }
-/* line 460, ../scss/main.scss */
+/* line 461, ../scss/main.scss */
 .article > img {
   width: 100%;
   height: auto;
 }
-/* line 470, ../scss/main.scss */
+/* line 471, ../scss/main.scss */
 .article.single-special .single-image img {
   width: 100%;
   height: auto;
 }
-/* line 475, ../scss/main.scss */
+/* line 476, ../scss/main.scss */
 .article.single-special .single-image .date {
   display: block;
   font-weight: bold;
   font-size: 10px;
 }
-/* line 482, ../scss/main.scss */
+/* line 483, ../scss/main.scss */
 .article.single-special .single-image .type {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-/* line 489, ../scss/main.scss */
+/* line 490, ../scss/main.scss */
 .article.single-special .single-image .organization {
   display: block;
   font-size: 10px;
 }
-/* line 493, ../scss/main.scss */
+/* line 494, ../scss/main.scss */
 .article.single-special .single-image .organization .author {
   color: #ff3300;
   font-size: 11px;
 }
-/* line 500, ../scss/main.scss */
+/* line 501, ../scss/main.scss */
 .article.single-special .single-image h5 {
   margin: 0;
 }
-/* line 504, ../scss/main.scss */
+/* line 505, ../scss/main.scss */
 .article.single-special .single-image .link, .article.single-special .single-image .read-more {
   font-size: 10px;
   font-weight: bold;
@@ -499,21 +500,21 @@ input[type], textarea {
   color: #ff3300;
 }
 
-/* line 517, ../scss/main.scss */
+/* line 518, ../scss/main.scss */
 .lists.events-list li .img-post {
   width: 200px;
   height: 150px;
 }
-/* line 521, ../scss/main.scss */
+/* line 522, ../scss/main.scss */
 .lists.events-list li .img-post img {
   margin-bottom: 20px;
 }
 
-/* line 526, ../scss/main.scss */
+/* line 527, ../scss/main.scss */
 .lists li {
   position: relative;
 }
-/* line 529, ../scss/main.scss */
+/* line 530, ../scss/main.scss */
 .lists li .border {
   background-color: #ff3300;
   position: absolute;
@@ -522,18 +523,18 @@ input[type], textarea {
   height: 100%;
   width: 50px;
 }
-/* line 539, ../scss/main.scss */
+/* line 540, ../scss/main.scss */
 .lists li .fow-sep {
   width: 55px;
   float: left;
   display: block;
 }
 
-/* line 552, ../scss/main.scss */
+/* line 553, ../scss/main.scss */
 .staff-container .single-staff > span {
   color: #666;
 }
-/* line 556, ../scss/main.scss */
+/* line 557, ../scss/main.scss */
 .staff-container .single-staff .img-staff {
   width: 180px;
   height: 260px;
@@ -541,48 +542,48 @@ input[type], textarea {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 563, ../scss/main.scss */
+/* line 564, ../scss/main.scss */
 .staff-container .single-staff .img-staff img {
   width: 100%;
   height: auto;
 }
-/* line 570, ../scss/main.scss */
+/* line 571, ../scss/main.scss */
 .staff-container .single-staff .bio {
   margin-top: 10px;
   font-size: 14px;
 }
-/* line 575, ../scss/main.scss */
+/* line 576, ../scss/main.scss */
 .staff-container .single-staff .employee-title {
   color: #ff3300;
 }
 
-/* line 582, ../scss/main.scss */
+/* line 583, ../scss/main.scss */
 .youtube_channel .ytc_video_container {
   margin-right: 15px;
 }
 
-/* line 588, ../scss/main.scss */
+/* line 589, ../scss/main.scss */
 .publications-list .post-details {
   float: left;
   width: 495px;
   width: calc(100% - 175px);
 }
 
-/* line 594, ../scss/main.scss */
+/* line 595, ../scss/main.scss */
 .events-list .post-details {
   float: left;
   width: 460px;
   width: calc(100% - 210px);
 }
 
-/* line 600, ../scss/main.scss */
+/* line 601, ../scss/main.scss */
 body .wp-paginate .current {
   background-color: #ff3300;
   color: #fff;
   border-color: #ff3300;
 }
 
-/* line 606, ../scss/main.scss */
+/* line 607, ../scss/main.scss */
 body .wp-paginate {
   text-align: center;
 }

@@ -31,7 +31,7 @@ get_header() ;?>
 
                     <h6><a href="<?php the_permalink() ;?>"> <?php the_title() ;?> </a></h6>
                     <?php the_excerpt() ;?>
-                    <a href="<?php the_permalink() ;?>"><?php _e('Read More ','fespal') ;?></a>
+                    <a href="<?php the_permalink() ;?>"><?php _e('Read More ','rosa') ;?></a>
                 </p>
                 <hr>
 

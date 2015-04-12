@@ -30,7 +30,7 @@ get_header() ;?>
 
                     <h6><a href="<?php the_permalink() ;?>"> <?php the_title() ;?> </a></h6>
                     <?php the_excerpt() ;?>
-                    <a href="<?php the_permalink() ;?>"><?php _e('Read More ','fespal') ;?></a>
+                    <a href="<?php the_permalink() ;?>"><?php _e('Read More ','rosa') ;?></a>
                 </p>
                 <hr>
 
@@ -41,7 +41,7 @@ get_header() ;?>
 
 
             </ul>
-            <?php fespal_content_nav("pagination", $wp_query); ?>
+            <?php rosa_content_nav("pagination", $wp_query); ?>
             <?php endif ;?> 
 
 
