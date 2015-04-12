@@ -216,6 +216,13 @@ span.position{
 // Search
 @import "inputs";
 
+#search{
+	width: 75%;
+}
+
+.searchSubmit{
+	width: 20%;
+}
 // Slider
 @import "slider";
 

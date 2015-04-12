@@ -7,6 +7,9 @@ body,h1,h2,h3,h4,h5,h6,p{
 p{
 	line-height: 26px;
 }
+.nav-container .menu{
+	margin-right: 10px;
+}
 
 .nav-container .menu > li{
 	float: right;
