@@ -23,7 +23,7 @@
     // Adding Image thumbnail Sizes
     add_image_size('year_activities','120','80',true);
     add_image_size('month_activities','120','130',true);
-    add_image_size('publication','130','178',true);
+    add_image_size('publication','250','342',true);
     add_image_size('single','400','178' ,true );
     add_image_size('staff','150','200',true);
     add_image_size('yearly_archive','150','200',true);
