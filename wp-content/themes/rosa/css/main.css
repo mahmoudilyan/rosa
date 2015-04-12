@@ -199,9 +199,10 @@ span.position {
 input[type], textarea {
   height: 30px;
   font-size: 11px;
+  padding: 0 4px;
 }
 
-/* line 6, ../scss/_inputs.scss */
+/* line 7, ../scss/_inputs.scss */
 .searchSubmit {
   background: #ff3300;
   color: #fff;
