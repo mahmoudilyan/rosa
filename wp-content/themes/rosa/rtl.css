@@ -47,6 +47,10 @@ p{
 	right: 0;
 }
 
+.events-list .post-details{
+	float: right;
+}
+
 footer#main-footer p.copyright .social-links{
 
 	float: left;
