@@ -21,21 +21,23 @@ get_header() ;?>
                 ?>
 
                 <li>
+                    <?php if( has_post_thumbnail() ) { ?>
+
                     <div class="img-post">
 
-
-                        <?php if( has_post_thumbnail() ){
+                                <?php 
                                 $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
                                 echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '">';
                                 the_post_thumbnail( 'single-event' );                        
                                 echo '</a>';
+                                echo '</div>';
+
                             } else {
 
                                 echo '<div class="border"></div>
                                       <div class="fow-sep"></div>';
                             }
                         ?>                        
-                    </div>
 
                     <div class="post-details">
 
