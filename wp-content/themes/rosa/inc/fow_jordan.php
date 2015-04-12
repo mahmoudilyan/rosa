@@ -89,7 +89,7 @@ class FOWJordan {
             'update_item' => __('Update Year','fespal'),
             'add_new_item' => __('Add New Year','fespal'),
             'new_item_name' => __('New Year Name','fespal'),
-            'menu_name' => __('FOW Palestine Years','fespal')
+            'menu_name' => __('FOW Jordan Years','fespal')
         );
 
         $args = array(

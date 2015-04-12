@@ -6,7 +6,7 @@ get_header() ;?>
         
         <div class="col-md-9">
             
-            <h3><?php _e('Partners & Projects ', 'rosa') ;?><span class="highlight"><?php echo $_GET['fow_palestine_years'] ;?></span></h3>
+            <h3><?php _e('Partners & Projects ', 'rosa') ;?><span class="highlight"><?php echo str_replace("-ar", "", $_GET['fow_palestine_years']) ;?></span></h3>
 
             <?php if(have_posts()) : ?>
             
