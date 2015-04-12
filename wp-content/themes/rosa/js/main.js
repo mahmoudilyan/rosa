@@ -1,15 +1,19 @@
 $('document').ready(function (){
 	"use strict";
 
-	$('#main-slider').owlCarousel({
+	if( $("html").attr("lang") !== 'ar') {
+
+    $('#main-slider').owlCarousel({
       singleItem:true,
       autoPlay: true,
       //rewindNav: false,
       slideSpeed: 500,
       transitionStyle : "fade"
-  });
+    });
 
-  if( $("html").attr("lang") === 'ar'){
+  }
+
+  if( $("html").attr("lang") == 'ar'){
 
     $('#main-slider').owlCarousel({
         singleItem:true,
@@ -19,7 +23,7 @@ $('document').ready(function (){
         transitionStyle : "fade",
         direction: "rtl"
     });  
-    
+
   }
 
 
