@@ -68,7 +68,7 @@ $('document').ready(function (){
 	});
 
     // Initialize navgoco with default options
-    $("#menu-fields-of-work").navgoco({
+    $("#menu-fields-of-work,#menu-fields-of-work-arabic").navgoco({
         caretHtml: '',
         accordion: true,
         openClass: 'open',

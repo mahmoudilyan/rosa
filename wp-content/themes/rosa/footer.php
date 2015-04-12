@@ -14,7 +14,7 @@
     	<div class="col-md-12">
     		<p class="copyright">
                 <?php 
-                    _e('All Right Reserved To Rosa Luxemburg Stiftung 2015', 'rosa') ;
+                    _e('All Rights Reserved To Rosa Luxemburg Stiftung 2015', 'rosa') ;
                 ?>
     			<span class="social-links">
     				<a href="https://www.facebook.com/rlfpal"><img src="<?php bloginfo('template_url') ;?>/img/facebook.png" alt=""></a>

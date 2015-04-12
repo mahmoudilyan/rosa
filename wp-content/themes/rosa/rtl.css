@@ -29,6 +29,15 @@ p{
 	float: right;
 }
 
+.lists li .img-post{
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.widget .menu .sub-menu a{
+	color: #fff;
+}
 
 footer#main-footer p.copyright .social-links{
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rosa\n"
-"POT-Creation-Date: 2015-04-05 19:47+0200\n"
-"PO-Revision-Date: 2015-04-05 19:47+0200\n"
+"POT-Creation-Date: 2015-04-12 16:53+0200\n"
+"PO-Revision-Date: 2015-04-12 16:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -42,21 +42,17 @@ msgstr ""
 msgid "See More Publciations in: "
 msgstr ""
 
-#: ../category.php:23 ../search.php:24 ../taxonomy-fow_jordan_years.php:34
+#: ../category.php:35 ../search.php:24 ../taxonomy-fow_jordan_years.php:34
 #: ../taxonomy-fow_palestine_years.php:33
 msgid "Read More "
 msgstr ""
 
+#: ../footer.php:17
+msgid "All Rights Reserved To Rosa Luxemburg Stiftung 2015"
+msgstr ""
+
 #: ../functions.php:74
 msgid "Primary Menu"
-msgstr ""
-
-#: ../functions.php:206
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
-
-#: ../functions.php:208
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #: ../inc/event.php:43
@@ -535,21 +531,29 @@ msgstr ""
 msgid "No results found"
 msgstr ""
 
+#: ../searchform.php:5
+msgid "Search.."
+msgstr ""
+
+#: ../searchform.php:6
+msgid "Search"
+msgstr ""
+
 #: ../single-event.php:42
 msgid "Organizer: "
 msgstr ""
 
 #: ../single-event.php:45 ../single-publication.php:48
-#: ../taxonomy-events_categories.php:42
+#: ../taxonomy-events_categories.php:44
 msgid "Type: "
 msgstr ""
 
-#: ../single-event.php:46 ../taxonomy-events_categories.php:45
+#: ../single-event.php:46 ../taxonomy-events_categories.php:47
 msgid "Location: "
 msgstr ""
 
-#: ../single-publication.php:44 ../taxonomy-events_categories.php:39
-#: ../taxonomy-publications_years.php:37
+#: ../single-publication.php:44 ../taxonomy-events_categories.php:41
+#: ../taxonomy-publications_years.php:39
 msgid "Organization/Author: "
 msgstr ""
 
@@ -672,3 +676,6 @@ msgstr ""
 #: ../widgets/Publication_Widget.php:55
 msgid "How Many Publiations to show"
 msgstr ""
+
+#~ msgid "All Right Reserved To Rosa Luxemburg Stiftung 2015"
+#~ msgstr "‎جميع ال"

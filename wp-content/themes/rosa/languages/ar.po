@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rosa\n"
-"POT-Creation-Date: 2015-04-05 19:57+0200\n"
-"PO-Revision-Date: 2015-04-05 19:59+0200\n"
+"POT-Creation-Date: 2015-04-12 16:54+0200\n"
+"PO-Revision-Date: 2015-04-12 17:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -43,25 +43,17 @@ msgstr "المنشورات"
 msgid "See More Publciations in: "
 msgstr ""
 
-#: ../category.php:23 ../search.php:24 ../taxonomy-fow_jordan_years.php:34
+#: ../category.php:35 ../search.php:24 ../taxonomy-fow_jordan_years.php:34
 #: ../taxonomy-fow_palestine_years.php:33
 msgid "Read More "
 msgstr ""
 
 #: ../footer.php:17
-msgid "All Right Reserved To Rosa Luxemburg Stiftung 2015"
-msgstr ""
+msgid "All Rights Reserved To Rosa Luxemburg Stiftung 2015"
+msgstr "‎جميع الحقوق محفوظة لمؤسسة روزا لوكسمبورغ"
 
 #: ../functions.php:74
 msgid "Primary Menu"
-msgstr ""
-
-#: ../functions.php:206
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
-
-#: ../functions.php:208
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #: ../inc/event.php:43
@@ -553,18 +545,18 @@ msgid "Organizer: "
 msgstr "المنظم"
 
 #: ../single-event.php:45 ../single-publication.php:48
-#: ../taxonomy-events_categories.php:42
+#: ../taxonomy-events_categories.php:44
 msgid "Type: "
 msgstr "النوع"
 
-#: ../single-event.php:46 ../taxonomy-events_categories.php:45
+#: ../single-event.php:46 ../taxonomy-events_categories.php:47
 msgid "Location: "
-msgstr ""
+msgstr "المكان"
 
-#: ../single-publication.php:44 ../taxonomy-events_categories.php:39
-#: ../taxonomy-publications_years.php:37
+#: ../single-publication.php:44 ../taxonomy-events_categories.php:41
+#: ../taxonomy-publications_years.php:39
 msgid "Organization/Author: "
-msgstr ""
+msgstr "المنظم ‪/‬ الكاتب"
 
 #: ../single-publication.php:49
 msgid "Link "
