@@ -9,6 +9,19 @@ $('document').ready(function (){
       transitionStyle : "fade"
   });
 
+  if( $("html").attr("lang") === 'ar'){
+
+    $('#main-slider').owlCarousel({
+        singleItem:true,
+        autoPlay: true,
+        //rewindNav: false,
+        slideSpeed: 500,
+        transitionStyle : "fade",
+        direction: "rtl"
+    });  
+    
+  }
+
 
 	$(".publication_fade").owlCarousel({
       singleItem:true,
