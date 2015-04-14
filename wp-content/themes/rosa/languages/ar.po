@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rosa\n"
-"POT-Creation-Date: 2015-04-12 16:54+0200\n"
-"PO-Revision-Date: 2015-04-12 17:50+0200\n"
+"POT-Creation-Date: 2015-04-15 00:22+0200\n"
+"PO-Revision-Date: 2015-04-15 00:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -220,8 +220,8 @@ msgstr ""
 msgid "New Year Name"
 msgstr ""
 
-#: ../inc/fow_jordan.php:92 ../inc/fow_palestine.php:93
-msgid "FOW Palestine Years"
+#: ../inc/fow_jordan.php:92
+msgid "FOW Jordan Years"
 msgstr ""
 
 #: ../inc/fow_jordan.php:115
@@ -262,6 +262,10 @@ msgstr ""
 
 #: ../inc/fow_palestine.php:54
 msgid "FOW palestine"
+msgstr ""
+
+#: ../inc/fow_palestine.php:93
+msgid "FOW Palestine Years"
 msgstr ""
 
 #: ../inc/fow_palestine.php:116
@@ -540,21 +544,19 @@ msgstr "ادخل كلمة البحث"
 msgid "Search"
 msgstr "ابحث"
 
-#: ../single-event.php:42
+#: ../single-event.php:42 ../taxonomy-events_categories.php:47
 msgid "Organizer: "
-msgstr "المنظم"
+msgstr "المنظم‪:‬ "
 
 #: ../single-event.php:45 ../single-publication.php:48
-#: ../taxonomy-events_categories.php:44
 msgid "Type: "
 msgstr "النوع"
 
-#: ../single-event.php:46 ../taxonomy-events_categories.php:47
+#: ../single-event.php:46
 msgid "Location: "
 msgstr "المكان"
 
-#: ../single-publication.php:44 ../taxonomy-events_categories.php:41
-#: ../taxonomy-publications_years.php:39
+#: ../single-publication.php:44 ../taxonomy-publications_years.php:39
 msgid "Organization/Author: "
 msgstr "المنظم ‪/‬ الكاتب"
 

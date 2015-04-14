@@ -41,7 +41,8 @@ get_header() ;?>
 
                     <div class="post-details">
 
-                    <span class="date"><?php echo $date ;?></span>
+                    <span class="date"><?php echo $date ;?>, <?php echo  $location ;?>
+                    </span>
                     <?php if($organizer) : ?>
 
                         <span class="organization"><?php _e('Organizer: ', 'rosa'); echo '<span class="author">'. $organizer.'</span>' ;?></span>
@@ -50,7 +51,6 @@ get_header() ;?>
                     <h6><?php the_title() ;?></h6>
                     <span class="type"> <?php echo $type ;?></span>
                     <?php the_content() ;?>
-                    <span class="location"><?php echo  $location ;?></span>
                     </div>
 
                 </li>
