@@ -49,7 +49,7 @@ get_header() ;?>
                     <?php endif ;?>
                     <span class="type"><strong><?php _e('Type: ','rosa'); echo '</strong>'. $type ;?></span>
                     <h6><?php the_title() ;?></h6>
-                    <?php the_excerpt() ;?>
+                    <?php the_content() ;?>
                     <span class="location"><strong><?php _e('Location: ','rosa'); echo '</strong>' . $location ;?></span>
                     </div>
 
