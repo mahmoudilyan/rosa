@@ -44,13 +44,13 @@ get_header() ;?>
                     <span class="date"><?php echo $date ;?></span>
                     <?php if($organizer) : ?>
 
-                        <span class="organization"><?php _e('Organization/Author: ', 'rosa'); echo '<span class="author">'. $organizer.'</span>' ;?></span>
+                        <span class="organization"><?php _e('Organizer: ', 'rosa'); echo '<span class="author">'. $organizer.'</span>' ;?></span>
 
                     <?php endif ;?>
-                    <span class="type"><strong><?php _e('Type: ','rosa'); echo '</strong>'. $type ;?></span>
                     <h6><?php the_title() ;?></h6>
+                    <span class="type"> <?php echo $type ;?></span>
                     <?php the_content() ;?>
-                    <span class="location"><strong><?php _e('Location: ','rosa'); echo '</strong>' . $location ;?></span>
+                    <span class="location"><?php echo  $location ;?></span>
                     </div>
 
                 </li>
