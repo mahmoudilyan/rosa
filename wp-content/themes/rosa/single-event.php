@@ -42,10 +42,6 @@ get_header() ;
                         <span class="organization"><?php _e('Organizer: ', 'rosa'); echo '<span class="author">'. $organizer.'</span>' ;?></span>
 
 
-                    <span class="type"><strong><?php _e('Type: ','rosa') ;?><?php echo '</strong>' . $type ;?></span>
-                    <span class="location"><strong><?php _e('Location: ','rosa'); echo '</strong>' . $location ;?></span>
-
-
                 </div>
 
                 <?php endwhile; ?>
