@@ -133,6 +133,8 @@ class Event {
         $date = get_post_meta($post->ID,'event_date', true);
         $location = get_post_meta($post->ID,'event_location', true);
         $type = get_post_meta($post->ID,'event_type', true);
+        $event_single = get_post_meta($post->ID,'event_single', true);
+
         ?>
 
             <div class="formContainer">
@@ -167,6 +169,16 @@ class Event {
                         <br />
                     </div>
 
+                    <div class="single">
+                        <label for="event-single"><?php _e('Event Single Page','rosa') ;?></label>
+                        <input type="radio" class="event-single" value="on" <?php if(!empty($event_single) && $event_single === 'on' ){ echo 'checked';}?>  id="event-single" name="event_single" /> Yes
+                        <input type="radio" class="event-single" value="off" <?php if(!empty($event_single) && $event_single === 'off' ){ echo 'checked';}?>  id="event-single" name="event_single" /> No
+                        <br />
+                    </div>
+
+
+
+
 
                 </div>
            </div>
@@ -187,12 +199,14 @@ class Event {
         if(isset($_POST['event_organizer']) &&
            isset($_POST['event_date']) &&
            isset($_POST['event_location']) &&
-           isset($_POST['event_type'])
+           isset($_POST['event_type']) &&
+           isset($_POST['event_single'])
           ){
             update_post_meta($post_id,'event_organizer', $_POST['event_organizer']);
             update_post_meta($post_id,'event_date', $_POST['event_date']);
             update_post_meta($post_id,'event_location', $_POST['event_location']);
             update_post_meta($post_id,'event_type', $_POST['event_type']);
+            update_post_meta($post_id, 'event_single', $_POST['event_single']);
         }
         
     }     

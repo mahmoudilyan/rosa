@@ -16,6 +16,7 @@ get_header() ;?>
                 $organizer = get_post_meta(get_the_ID(), 'event_organizer', true);
                 $type = get_post_meta(get_the_ID(), 'event_type', true);
                 $date = get_post_meta(get_the_ID(), 'event_date', true);
+                $event_single = get_post_meta(get_the_ID(), 'event_single', true);
 
 
                 ?>
@@ -50,7 +51,18 @@ get_header() ;?>
                     <?php endif ;?>
                     <h6><?php the_title() ;?></h6>
                     <span class="type"> <?php echo $type ;?></span>
+
+                    <?php if($event_single === 'on') :  ?>
+                        
+                        <?php the_excerpt() ;?>
+
+                        <a href="<?php the_permalink() ;?>"><?php _e('Read More ','rosa') ;?></a>
+
+                    <?php else :  ?>
+
                     <?php the_content() ;?>
+
+                    <?php endif ;?>
                     </div>
 
                 </li>
