@@ -42,7 +42,7 @@ get_header() ;?>
 
                     <div class="post-details">
 
-                    <span class="date"><?php echo $date ;?>, <?php echo  $location ;?>
+                    <span class="date"><?php echo $date ;?> <?php if($location !== '') {echo ', ' . $location ;}?>
                     </span>
                     <?php if($organizer) : ?>
 
