@@ -14,13 +14,14 @@
     	<div class="col-md-12">
     		<p class="copyright">
                 <?php 
-                    _e('All Rights Reserved To Rosa Luxemburg Stiftung 2015', 'rosa') ;
+                    _e('All Rights Reserved To Rosa Luxemburg Stiftung Regional Office Palestine', 'rosa') ;
                 ?>
     			<span class="social-links">
     				<a href="https://www.facebook.com/rlfpal" target="_blank"><img src="<?php bloginfo('template_url') ;?>/img/facebook.png" alt=""></a>
     				<a href="https://www.youtube.com/channel/UCd2CsdyCIBK78W-znt4su1Q/videos" target="_blank"><img src="<?php bloginfo('template_url') ;?>/img/youtube.png" alt=""></a>
     			</span>
     		</p>
+
     	</div>
     </div>
 </footer>
