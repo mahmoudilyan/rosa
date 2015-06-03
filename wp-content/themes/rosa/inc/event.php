@@ -206,7 +206,7 @@ class Event {
             update_post_meta($post_id,'event_date', $_POST['event_date']);
             update_post_meta($post_id,'event_location', $_POST['event_location']);
             update_post_meta($post_id,'event_type', $_POST['event_type']);
-            update_post_meta($post_id, 'event_single', $_POST['event_single']);
+            update_post_meta($post_id,'event_single', $_POST['event_single']);
         }
         
     }     
