@@ -200,7 +200,7 @@ class Event {
            isset($_POST['event_date']) &&
            isset($_POST['event_location']) &&
            isset($_POST['event_type']) &&
-           isset($_POST['event_single'])
+           //isset($_POST['event_single'])
           ){
             update_post_meta($post_id,'event_organizer', $_POST['event_organizer']);
             update_post_meta($post_id,'event_date', $_POST['event_date']);
