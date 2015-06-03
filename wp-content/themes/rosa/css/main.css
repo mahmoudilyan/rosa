@@ -596,6 +596,11 @@ body .wp-paginate {
   text-align: center;
 }
 
+/* line 617, ../scss/main.scss */
+.easingslider-arrows {
+  display: none !important;
+}
+
 /* line 6, ../scss/_publications.scss */
 .publication_fade .publication_single img {
   width: 100%;
