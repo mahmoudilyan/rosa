@@ -18,7 +18,7 @@
                 ?>
     			<span class="social-links">
     				<a href="https://www.facebook.com/rlfpal"><img src="<?php bloginfo('template_url') ;?>/img/facebook.png" alt=""></a>
-    				<a href="#"><img src="<?php bloginfo('template_url') ;?>/img/youtube.png" alt=""></a>
+    				<a href="https://www.youtube.com/channel/UCd2CsdyCIBK78W-znt4su1Q/videos"><img src="<?php bloginfo('template_url') ;?>/img/youtube.png" alt=""></a>
     			</span>
     		</p>
     	</div>
