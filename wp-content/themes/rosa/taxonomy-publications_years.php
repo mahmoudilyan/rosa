@@ -40,7 +40,7 @@ get_header() ;?>
 
                     <?php endif ;?>
                     <span class="type"><?php echo $type ;?></span>
-                    <h6><a href="<?php echo $link; ?>"><?php the_title() ;?></a></h6>
+                    <h6><a href="<?php echo $link; ?>" target="_blank"><?php the_title() ;?></a></h6>
                     <?php the_excerpt() ;?>
 
                 
