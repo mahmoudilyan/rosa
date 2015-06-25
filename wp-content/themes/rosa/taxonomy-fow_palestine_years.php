@@ -41,7 +41,7 @@ get_header() ;?>
 
 
             </ul>
-            <?php rosa_content_nav("pagination", $wp_query); ?>
+            <?php fespal_content_nav("pagination", $wp_query); ?>
             <?php endif ;?> 
 
 
