@@ -51,6 +51,10 @@ p{
 	float: right;
 }
 
+.lists.publications-list li .organization .author{
+	margin: 0 10px;
+}
+
 footer#main-footer p.copyright .social-links{
 
 	float: left;

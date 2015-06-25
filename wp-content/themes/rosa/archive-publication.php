@@ -41,7 +41,7 @@
                     ?>
                     </div>
             
-                    <h5><a href="<?php echo $link ;?>"><?php the_title() ;?></a></h5>
+                    <h5><a href="<?php echo $link ;?>" target="_blank"><?php the_title() ;?></a></h5>
 
                     <?php if ($organizations) :?>
                         <h6>Organization: <span class="highlight"><?php echo reset($organizations)->name ;?></span></h6>
